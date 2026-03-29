@@ -15,7 +15,7 @@ if not exist ".env" (
     if exist ".env.cloud.template" (
         copy /Y ".env.cloud.template" ".env" >nul
         echo [ACTION] Un .env template a ete cree.
-        echo          Completez les valeurs (Neo4j Cloud + Groq), enregistrez, puis relancez.
+        echo          Completez les valeurs Neo4j Cloud + Groq, enregistrez, puis relancez.
         start "" notepad ".env"
     ) else if exist ".env.example" (
         copy /Y ".env.example" ".env" >nul

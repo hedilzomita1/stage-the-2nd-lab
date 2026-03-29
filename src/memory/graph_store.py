@@ -2,7 +2,8 @@ import os
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
 
-load_dotenv()
+# Force .env values to avoid hidden/stale OS env vars overriding credentials.
+load_dotenv(override=True)
 
 class GraphStore:
     def __init__(self):

@@ -14,7 +14,7 @@ def run_ingestion():
     # 3. Le chemin exact vers votre fichier Excel
     EXCEL_PATH = os.path.join(BASE_DIR, "data", "raw", "form_data", "candidates_intake_form.xlsx") 
 
-    print("🚀 DÉMARRAGE RE-INGESTION (PHASE 1)...")
+    print(" DÉMARRAGE RE-INGESTION (PHASE 1)...")
     print(f"📁 Source Candidats : {RAW_CANDIDATES_DIR}")
     print(f"📊 Source Excel     : {EXCEL_PATH}")
     
@@ -28,7 +28,7 @@ def run_ingestion():
     # Lancement du traitement
     router.process_batch()
     
-    print("\n✅ Ingestion terminée ! Les nouveaux JSON structurés sont générés.")
+    print("\n Ingestion terminée ! Les nouveaux JSON structurés sont générés.")
 
 if __name__ == "__main__":
     run_ingestion()

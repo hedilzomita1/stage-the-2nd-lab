@@ -541,8 +541,7 @@ st.markdown("""
 
 
 # --- 3. INITIALISATION SéCURISÉE DE NEO4J ---
-@st.cache_resource
-def init_system():
+def init_system(neo4j_uri: str, neo4j_user: str, neo4j_mode: str):
     print("Tentative de connexion à Neo4j...")
     try:
         gs = GraphStore()
@@ -553,10 +552,26 @@ def init_system():
     except Exception as e:
         return str(e)
 
-db_status = init_system()
+_db_sig = (
+    os.getenv("NEO4J_URI", ""),
+    os.getenv("NEO4J_USER", ""),
+    os.getenv("AEBM_NEO4J_MODE", ""),
+)
+if st.session_state.get("_db_init_sig") != _db_sig or st.session_state.get("_db_status") != "SUCCESS":
+    st.session_state["_db_status"] = init_system(*_db_sig)
+    st.session_state["_db_init_sig"] = _db_sig
+
+db_status = st.session_state.get("_db_status", "UNKNOWN")
 if db_status != "SUCCESS":
     st.error("**ERREUR CRITIQUE : IMPOSSIBLE DE JOINDRE NEO4J**")
-    st.warning("Le Graphe de Connaissance (Neo4j) est éteint. Lancez votre conteneur Docker.")
+    neo4j_uri = (os.getenv("NEO4J_URI", "") or "").strip().lower()
+    if neo4j_uri.startswith("neo4j+s://"):
+        st.warning(
+            "Connexion Neo4j Cloud (AuraDB) échouée. "
+            "Vérifiez NEO4J_URI / NEO4J_USER / NEO4J_PASSWORD dans .env."
+        )
+    else:
+        st.warning("Le Graphe de Connaissance (Neo4j) est éteint. Lancez votre conteneur Docker.")
     with st.expander("Détails Techniques"):
         st.code(db_status)
 

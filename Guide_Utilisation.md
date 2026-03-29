@@ -1,75 +1,86 @@
-﻿# Guide Utilisation - The Sovereign (AEBM V5)
+# Guide Utilisation - The Sovereign (AEBM V5)
 
 ## 1. Public cible
-Ce guide est pour les superviseurs/non-developpeurs.
-Objectif: lancer l'application, faire un audit, et mettre a jour la base candidats sans manipulations techniques complexes.
+Ce guide est pour des utilisateurs non techniques.
+Objectif: lancer l'application localement et utiliser les modes Interne/Candidat sans configuration complexe.
 
 ## 2. Prerequis (une seule fois)
-1. Windows + Docker Desktop installe.
-2. Projet decompresse dans un dossier local.
-3. Fichier `.env` configure.
+1. Windows
+2. Python 3.12 installe (cocher "Add Python to PATH" pendant l'installation)
+3. Projet decompresse dans un dossier local
 
-### 2.1 Configurer le .env
-1. Copier `.env.example` vers `.env`.
-2. Remplir au minimum:
-- `GROQ_API_KEY`
+Note:
+- Docker n'est pas requis en mode Cloud.
+- Le fichier `.env` n'est pas fourni dans le zip (normal, pour la securite des cles).
+
+## 3. Configuration .env (mode Cloud recommande)
+Si `.env` est absent, `Demarrer_The_Sovereign.bat` le cree automatiquement et ouvre Notepad.
+
+Vous devez remplir:
+- `AEBM_NEO4J_MODE=cloud`
+- `NEO4J_URI`
+- `NEO4J_USER`
 - `NEO4J_PASSWORD`
-
-Option non-technique (recommandee superviseurs):
-- Utiliser `.env.cloud.template` en le renommant en `.env`
-- Renseigner `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `GROQ_API_KEY`
-- Laisser `AEBM_NEO4J_MODE=cloud` (Docker non requis)
+- `GROQ_API_KEY`
 
 Exemple:
 ```env
-GROQ_API_KEY=your_groq_key_here
-NEO4J_URI=bolt://localhost:7687
+AEBM_NEO4J_MODE=cloud
+NEO4J_URI=neo4j+s://YOUR_AURA_INSTANCE_ID.databases.neo4j.io
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=your_neo4j_password_here
+NEO4J_PASSWORD=YOUR_AURA_PASSWORD
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 LLM_MODEL=llama-3.3-70b-versatile
 ```
 
-## 3. Installation automatique (une seule fois)
-Dans PowerShell, depuis la racine projet:
+Important:
+- Le fichier doit s'appeler exactement `.env` (pas `.env.txt`).
+- En mode Cloud, Docker n'est pas utilise.
+
+## 4. Installation automatique (une seule fois)
+Dans PowerShell, depuis la racine du projet:
 ```powershell
 .\scripts\install_env.bat
 ```
-Ce script:
-- cree/active `.venv`
-- installe les dependances (`requirements.lock`)
-- lance un preflight de verification
 
-## 4. Lancement quotidien (one-click)
+Ce script:
+1. cree/active `.venv`
+2. installe les dependances
+3. lance un preflight
+
+## 5. Lancement quotidien (one-click)
 Double-cliquer:
 - `Demarrer_The_Sovereign.bat`
 
 Le script fait automatiquement:
-1. demarrage Neo4j (Docker)
-2. activation venv
-3. preflight rapide
-4. lancement Streamlit
+1. verification du mode Neo4j (Cloud ou local)
+2. verification/enrichissement de `.env`
+3. verification environnement Python
+4. preflight
+5. lancement Streamlit
 
-Ensuite ouvrir:
+Puis ouvrir:
 - http://localhost:8501
 
-Important: ne pas fermer la fenetre noire tant que vous utilisez l'application.
+Important:
+- Ne pas fermer la fenetre noire pendant l'utilisation.
 
-## 5. Utilisation fonctionnelle
-### 5.1 Mode Interne
-- Uploader l'offre PDF
-- Lancer la recherche vectorielle
-- Lancer l'audit d'un profil shortlist
-- Lire le rapport dans les onglets resultats
+## 6. Utilisation fonctionnelle
+### 6.1 Mode Interne
+1. Uploader l'offre PDF
+2. Lancer la recherche vectorielle
+3. Lancer l'audit d'un profil shortlist
+4. Lire le rapport dans les onglets resultats
 
-### 5.2 Mode Candidat (CV seul)
-- Uploader uniquement le CV PDF
-- (Optionnel) secteurs/domaines cibles
-- Lancer "Generer mon diagnostic CV"
-- Lire: diagnostic CV + postes suggeres
+### 6.2 Mode Candidat (CV seul)
+1. Uploader uniquement le CV PDF
+2. (Optionnel) secteurs/domaines cibles
+3. Lancer "Generer mon diagnostic CV"
+4. Lire diagnostic CV + postes suggeres
 
-## 6. Mise a jour base candidats
+## 7. Mise a jour base candidats
 ### Option A (interface)
-Dans le mode interne > expander "Maintenance donnees (Admin)":
+Dans Mode Interne > expander "Maintenance donnees (Admin)":
 - "Lancer Ingestion + Reindexation"
 
 ### Option B (terminal)
@@ -78,82 +89,56 @@ Dans le mode interne > expander "Maintenance donnees (Admin)":
 .\.venv\Scripts\python.exe reindex.py
 ```
 
-## 7. Depannage rapide
+## 8. Depannage rapide
 ### Cas 1 - Module manquant / import error
-Executer:
 ```powershell
 .\scripts\install_env.bat
 ```
 
 ### Cas 2 - Preflight KO
-Executer:
 ```powershell
 .\.venv\Scripts\python.exe .\scripts\preflight.py --quick
 ```
-Puis corriger les lignes `[FAIL]` affichees.
+Corriger les lignes `[FAIL]`.
 
-### Cas 3 - Neo4j indisponible
-- Verifier Docker Desktop lance
-- Verifier conteneur `neo4j-aebm` (ou `neo4j`)
-- Verifier mot de passe `NEO4J_PASSWORD` dans `.env`
+### Cas 3 - Erreur Neo4j en mode Cloud
+Verifier dans `.env`:
+- `AEBM_NEO4J_MODE=cloud`
+- `NEO4J_URI=neo4j+s://...`
+- `NEO4J_USER`
+- `NEO4J_PASSWORD`
 
-### Cas 4 - Page Streamlit vide
-- Cliquer "Reinitialiser l'affichage"
-- Relancer `Demarrer_The_Sovereign.bat`
+Tester la connectivite:
+```powershell
+.\.venv\Scripts\python.exe -c "from dotenv import dotenv_values; c=dotenv_values('.env'); from neo4j import GraphDatabase; d=GraphDatabase.driver(c['NEO4J_URI'], auth=(c['NEO4J_USER'], c['NEO4J_PASSWORD'])); d.verify_connectivity(); print('AURA_AUTH_OK'); d.close()"
+```
 
-## 8. Bonnes pratiques operationnelles
-1. Toujours lancer via `Demarrer_The_Sovereign.bat`.
-2. Ne pas modifier `requirements.lock` manuellement.
-3. Pour mise a jour package: faire via equipe technique, puis regenerer lock.
-4. Garder `data/vault/` protege (contient les artefacts d'anonymisation).
+### Cas 4 - Page Streamlit vide / erreur JS
+1. Ouvrir en navigation privee
+2. Faire `Ctrl+F5`
+3. Relancer `Demarrer_The_Sovereign.bat`
 
 ## 9. Arret propre
-- Fermer l'onglet navigateur
-- Puis fermer la fenetre noire du script
+1. Fermer l'onglet navigateur
+2. Fermer la fenetre noire du script
 
 ## 10. Commandes qualite (equipe technique)
-Tests D1 (rapide):
+Tests D1:
 ```powershell
 .\scripts\test_d1.bat
 ```
 
-Tests D1 + couverture (gate 20%):
+Tests D1 + couverture:
 ```powershell
 .\scripts\test_d1.bat cov 20
 ```
 
-Equivalent PowerShell:
-```powershell
-.\scripts\test_d1.ps1
-.\scripts\test_d1.ps1 -Coverage -MinCoverage 20
-```
-
-Pack soutenance (1-page + detail):
+Pack soutenance:
 ```powershell
 .\scripts\test_e1_pack.ps1
-```
-
-Checklist finale avant soutenance:
-```powershell
 .\scripts\test_e2_checklist.ps1
-```
-
-Script dry-run soutenance (timeline + narration):
-```powershell
 .\scripts\test_e3_dryrun.ps1
-```
-
-Pack Q&A jury (questions difficiles + reponses):
-```powershell
 .\scripts\test_e4_qa.ps1
-```
-
-Pack de livraison superviseur (zip partageable):
-```powershell
 .\scripts\test_e5_bundle.ps1
-```
-
-Verdict final de readiness (PASS/FAIL):
-```powershell
 .\scripts\test_e6_release.ps1
 ```

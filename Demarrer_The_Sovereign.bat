@@ -34,8 +34,9 @@ set "NEO4J_PASSWORD="
 set "NEO4J_URI="
 set "AEBM_NEO4J_MODE="
 set "USE_CLOUD_NEO4J=0"
+set "GROQ_API_KEY="
 
-for /f "usebackq tokens=1,* delims==" %%A in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "$out=@(); Get-Content '.env' | ForEach-Object { if($_ -match '^\s*#' -or $_ -notmatch '='){ return }; $parts=$_.Split('=',2); $k=$parts[0].Trim(); $v=$parts[1].Trim().Trim('\"'''); switch -Regex ($k) { '^AEBM_NEO4J_MODE$' { $out += 'AEBM_NEO4J_MODE=' + $v }; '^NEO4J_URI$' { $out += 'NEO4J_URI=' + $v }; '^NEO4J_USER$' { $out += 'NEO4J_USER=' + $v }; '^NEO4J_PASSWORD$' { $out += 'NEO4J_PASSWORD=' + $v }; '^NEO4J_CONTAINER$' { $out += 'TARGET_CONTAINER=' + $v } } }; $out | ForEach-Object { Write-Output $_ }"`) do (
+for /f "usebackq tokens=1,* delims==" %%A in (`powershell -NoProfile -ExecutionPolicy Bypass -File "scripts\read_env_vars.ps1" -Path ".env"`) do (
     set "%%A=%%B"
 )
 

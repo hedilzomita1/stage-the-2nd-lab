@@ -38,3 +38,8 @@ jobs:
         shell: pwsh
         run: |
           python -m pytest -c pytest.ini tests_d1 --cov=src --cov=ui --cov-report=term-missing --cov-fail-under=20 -q
+
+      - name: Run D3 quality gate
+        shell: pwsh
+        run: |
+          python scripts/eval_d3.py --enforce-gate --min-micro-f1 0.65

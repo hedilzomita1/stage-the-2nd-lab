@@ -1,0 +1,91 @@
+{
+  "global_status": "PASS",
+  "ok_checks": 16,
+  "total_checks": 16,
+  "required_files": [
+    {
+      "label": "App entrypoint",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/app.py"
+    },
+    {
+      "label": "Launcher",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/Demarrer_The_Sovereign.bat"
+    },
+    {
+      "label": "Guide utilisateur",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/Guide_Utilisation.md"
+    },
+    {
+      "label": "D3 metrics",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/outputs/evaluation/d3/metrics_d3.json"
+    },
+    {
+      "label": "D4 ablation",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/outputs/evaluation/d3/ablation_d4.json"
+    },
+    {
+      "label": "D5 stability",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/outputs/evaluation/d3/stability_d5.json"
+    },
+    {
+      "label": "D6 calibration",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/outputs/evaluation/d3/calibration_d6.json"
+    },
+    {
+      "label": "Soutenance 1-page",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/outputs/soutenance/SOUTENANCE_1PAGE.md"
+    },
+    {
+      "label": "Soutenance detaillee",
+      "status": true,
+      "info": "C:/Users/hadil/OneDrive/Bureau/ULAVAL/maitrise/stage sem 2/AEBM_Project/outputs/soutenance/SOUTENANCE_DETAILLEE.md"
+    }
+  ],
+  "environment": [
+    {
+      "label": "Env var GROQ_API_KEY",
+      "status": true,
+      "info": "configured"
+    },
+    {
+      "label": "Env var NEO4J_URI",
+      "status": true,
+      "info": "configured"
+    },
+    {
+      "label": "Env var NEO4J_USER",
+      "status": true,
+      "info": "configured"
+    },
+    {
+      "label": "Env var NEO4J_PASSWORD",
+      "status": true,
+      "info": "configured"
+    }
+  ],
+  "quality_gates": [
+    {
+      "label": "D3 quality gate",
+      "status": true,
+      "info": "PASS"
+    },
+    {
+      "label": "D5 stability gate",
+      "status": true,
+      "info": "PASS"
+    },
+    {
+      "label": "D6 readiness gate",
+      "status": true,
+      "info": "PASS"
+    }
+  ]
+}

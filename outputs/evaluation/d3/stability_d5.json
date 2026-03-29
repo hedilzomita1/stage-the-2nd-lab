@@ -1,0 +1,114 @@
+{
+  "protocol_version": "d5_stability_v1",
+  "runs": 10,
+  "inputs": {
+    "golden_path": "evaluation/d3/golden_set.template.jsonl",
+    "predictions_path": "evaluation/d3/predictions.template.jsonl"
+  },
+  "aggregate": {
+    "micro_f1": {
+      "mean": 0.8571,
+      "std": 0.0,
+      "min": 0.8571,
+      "max": 0.8571
+    },
+    "unsupported_evidence_rate": {
+      "mean": 0.3333,
+      "std": 0.0,
+      "min": 0.3333,
+      "max": 0.3333
+    },
+    "false_claim_acceptance_rate": {
+      "mean": 0.5,
+      "std": 0.0,
+      "min": 0.5,
+      "max": 0.5
+    }
+  },
+  "stability_gate": {
+    "status": "PASS",
+    "reason": "PASS: stability variance thresholds satisfied.",
+    "thresholds": {
+      "max_std_micro_f1": 0.02,
+      "max_std_unsupported_rate": 0.02,
+      "max_std_false_claim_rate": 0.02
+    },
+    "checks": {
+      "micro_f1_std_ok": true,
+      "unsupported_rate_std_ok": true,
+      "false_claim_rate_std_ok": true
+    }
+  },
+  "per_run": [
+    {
+      "run_id": 1,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 2,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 3,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 4,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 5,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 6,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 7,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 8,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 9,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    },
+    {
+      "run_id": 10,
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "quality_gate_status": "PASS"
+    }
+  ]
+}

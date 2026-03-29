@@ -1,0 +1,57 @@
+{
+  "protocol_version": "d3_v1",
+  "summary": {
+    "samples_total": 2,
+    "samples_with_prediction": 2,
+    "coverage_rate": 1.0,
+    "micro_precision": 0.75,
+    "micro_recall": 1.0,
+    "micro_f1": 0.8571,
+    "macro_precision": 0.75,
+    "macro_recall": 1.0,
+    "macro_f1": 0.8571,
+    "unsupported_evidence_rate": 0.3333,
+    "false_claim_acceptance_rate": 0.5
+  },
+  "counters": {
+    "tp": 6,
+    "fp": 2,
+    "fn": 0,
+    "unsupported_evidence": 2,
+    "total_evidence": 6,
+    "false_accept_absent": 2,
+    "total_absent_labels": 4
+  },
+  "per_sample": [
+    {
+      "sample_id": "CV_001",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571,
+      "unsupported_evidence_count": 1,
+      "total_evidence_count": 3,
+      "false_accept_absent_count": 1
+    },
+    {
+      "sample_id": "CV_002",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571,
+      "unsupported_evidence_count": 1,
+      "total_evidence_count": 3,
+      "false_accept_absent_count": 1
+    }
+  ],
+  "gate": {
+    "status": "PASS",
+    "min_micro_f1": 0.7,
+    "observed_micro_f1": 0.8571,
+    "reason": "PASS: micro_f1=0.8571 >= min_micro_f1=0.7000"
+  }
+}

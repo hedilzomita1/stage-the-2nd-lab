@@ -1,0 +1,55 @@
+flowchart TD
+    U["Utilisateur"] --> UI["UI Streamlit"]
+    UI --> M{"Mode"}
+    M -->|Interne| IN["Flux interne"]
+    M -->|Candidat| CA["Flux candidat CV-only"]
+
+    subgraph L1["Couche 1 - Ingestion"]
+      P["Parser CV/Offre"]
+      G["PII Guard FR/EN + Vault chiffre"]
+      R["Routing vers state LangGraph"]
+    end
+
+    subgraph L2["Couche 2 - Memoire & Retrieval"]
+      V["FAISS + BM25"]
+      N["Neo4j Ontologie"]
+      H["HyDE (optionnel retrieval)"]
+    end
+
+    subgraph L3["Couche 3 - Orchestration"]
+      O["LangGraph nodes + router conditionnel"]
+    end
+
+    subgraph L4["Couche 4 - Agents"]
+      A1["Bridge Hard Skills"]
+      A2["Auditor Fail-Closed"]
+      A3["CV Global Advisor"]
+      A4["Role Recommender"]
+      A5["Psycho/Rhetoric/Logistics (mode interne)"]
+    end
+
+    subgraph L5["Couche 5 - Scoring"]
+      S["Global scorer conditionnel par mode"]
+      E["D3/D4/D5/D6 evaluation gates"]
+    end
+
+    subgraph L6["Couche 6 - Sorties"]
+      O1["UI tabs + export JSON/Markdown"]
+      O2["Pack soutenance"]
+    end
+
+    IN --> P
+    CA --> P
+    P --> G --> R --> O
+    O --> A1 --> A2
+    O --> A3
+    O --> A4
+    O --> A5
+    A2 --> N
+    A1 --> V
+    V --> H
+    A1 --> S
+    A2 --> S
+    A3 --> S
+    A4 --> S
+    S --> E --> O1 --> O2

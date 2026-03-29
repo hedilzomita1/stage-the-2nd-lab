@@ -122,3 +122,33 @@ Equivalent PowerShell:
 .\scripts\test_d1.ps1
 .\scripts\test_d1.ps1 -Coverage -MinCoverage 20
 ```
+
+Pack soutenance (1-page + detail):
+```powershell
+.\scripts\test_e1_pack.ps1
+```
+
+Checklist finale avant soutenance:
+```powershell
+.\scripts\test_e2_checklist.ps1
+```
+
+Script dry-run soutenance (timeline + narration):
+```powershell
+.\scripts\test_e3_dryrun.ps1
+```
+
+Pack Q&A jury (questions difficiles + reponses):
+```powershell
+.\scripts\test_e4_qa.ps1
+```
+
+Pack de livraison superviseur (zip partageable):
+```powershell
+.\scripts\test_e5_bundle.ps1
+```
+
+Verdict final de readiness (PASS/FAIL):
+```powershell
+.\scripts\test_e6_release.ps1
+```

@@ -1,0 +1,38 @@
+{
+  "protocol_version": "e6_release_readiness_v1",
+  "generated_at_utc": "2026-03-29 03:24:56Z",
+  "overall_status": "PASS",
+  "gates": {
+    "d3_gate": "PASS",
+    "d5_gate": "PASS",
+    "d6_gate": "PASS",
+    "pre_soutenance_checklist": "PASS",
+    "artifact_presence": "PASS"
+  },
+  "required_artifacts": [
+    {
+      "path": "outputs/soutenance/SOUTENANCE_1PAGE.md",
+      "exists": true
+    },
+    {
+      "path": "outputs/soutenance/SOUTENANCE_DETAILLEE.md",
+      "exists": true
+    },
+    {
+      "path": "outputs/soutenance/DRY_RUN_SOUTENANCE.md",
+      "exists": true
+    },
+    {
+      "path": "outputs/soutenance/QA_JURY.md",
+      "exists": true
+    },
+    {
+      "path": "outputs/soutenance/AEBM_HANDOVER_PACKAGE.zip",
+      "exists": true
+    },
+    {
+      "path": "outputs/soutenance/HANDOVER_BUNDLE_MANIFEST.json",
+      "exists": true
+    }
+  ]
+}

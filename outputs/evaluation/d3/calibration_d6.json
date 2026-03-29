@@ -1,0 +1,29 @@
+{
+  "protocol_version": "d6_calibration_v1",
+  "thresholds": {
+    "min_micro_f1": 0.8071,
+    "max_unsupported_evidence_rate": 0.3833,
+    "max_false_claim_acceptance_rate": 0.55,
+    "max_stability_std_micro_f1": 0.01
+  },
+  "readiness_gate": {
+    "status": "PASS",
+    "checks": {
+      "micro_f1_ok": true,
+      "unsupported_rate_ok": true,
+      "false_claim_rate_ok": true,
+      "stability_std_ok": true,
+      "ablation_discriminative_ok": true
+    },
+    "findings": [
+      "Tous les criteres D6 sont satisfaits."
+    ],
+    "observed": {
+      "micro_f1": 0.8571,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "stability_std_micro_f1": 0.0,
+      "ablation_has_fail_variant": true
+    }
+  }
+}

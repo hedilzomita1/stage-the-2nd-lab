@@ -1,0 +1,30 @@
+{
+  "protocol_version": "e5_handover_bundle_v1",
+  "generated_at_utc": "2026-03-29 03:23:10Z",
+  "zip_name": "AEBM_HANDOVER_PACKAGE.zip",
+  "included_count": 20,
+  "missing_count": 0,
+  "included_files": [
+    "Guide_Utilisation.md",
+    "Demarrer_The_Sovereign.bat",
+    ".env.example",
+    "requirements.lock",
+    "pyproject.toml",
+    "scripts/install_env.bat",
+    "scripts/install_env.ps1",
+    "scripts/preflight.py",
+    "scripts/test_e1_pack.ps1",
+    "scripts/test_e2_checklist.ps1",
+    "scripts/test_e3_dryrun.ps1",
+    "scripts/test_e4_qa.ps1",
+    "outputs/soutenance/SOUTENANCE_1PAGE.md",
+    "outputs/soutenance/SOUTENANCE_DETAILLEE.md",
+    "outputs/soutenance/SOUTENANCE_ARCHITECTURE.mmd",
+    "outputs/soutenance/PRE_SOUTENANCE_CHECKLIST.md",
+    "outputs/soutenance/PRE_SOUTENANCE_CHECKLIST.json",
+    "outputs/soutenance/DRY_RUN_SOUTENANCE.md",
+    "outputs/soutenance/DRY_RUN_SOUTENANCE.json",
+    "outputs/soutenance/QA_JURY.md"
+  ],
+  "missing_files": []
+}

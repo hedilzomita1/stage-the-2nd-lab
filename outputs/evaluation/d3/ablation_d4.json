@@ -1,0 +1,33 @@
+{
+  "protocol_version": "d4_ablation_v1",
+  "baseline_variant": "baseline",
+  "min_micro_f1": 0.65,
+  "variants": [
+    {
+      "variant": "baseline",
+      "micro_f1": 0.8571,
+      "macro_f1": 0.8571,
+      "micro_precision": 0.75,
+      "micro_recall": 1.0,
+      "unsupported_evidence_rate": 0.3333,
+      "false_claim_acceptance_rate": 0.5,
+      "coverage_rate": 1.0,
+      "gate_status": "PASS",
+      "gate_reason": "PASS: micro_f1=0.8571 >= min_micro_f1=0.6500",
+      "delta_micro_f1_vs_baseline": 0.0
+    },
+    {
+      "variant": "noisy_no_evidence",
+      "micro_f1": 0.0,
+      "macro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "unsupported_evidence_rate": 1.0,
+      "false_claim_acceptance_rate": 1.0,
+      "coverage_rate": 1.0,
+      "gate_status": "FAIL",
+      "gate_reason": "FAIL: micro_f1=0.0000 < min_micro_f1=0.6500",
+      "delta_micro_f1_vs_baseline": -0.8571
+    }
+  ]
+}

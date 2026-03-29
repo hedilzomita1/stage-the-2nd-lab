@@ -1,0 +1,163 @@
+[CANDIDATE_NAME] 
+[PHONE] | [EMAIL] | Toronto, ON, Canada 
+
+PROFESSIONAL STATEMENT 
+
+Formally trained engineer with extensive experience in designing and implementing high-throughput screening 
+assays and laboratory automation systems using confocal microscopes, image analysis tools, and scripts (Python, 
+ImageJ, MATLAB).  Proven ability to independently manage complex projects in various fields from concept to 
+validation, with strong proficiency in cell assays, microscopy, and material characterization. Motivated self-starter 
+evidenced by enrollment into data science courses and creation of tools/scripts to streamline processes or tasks. 
+
+EDUCATION 
+
+Ph.D Chemical Engineering Candidate, Shoichet Lab, University of Toronto 
+GPA:4.0/4.0 
+Relevant Coursework: 
+UofT DSI Data Science Certificate –Database structure and querying using SQLite, version tracking using [CANDIDATE_NAME] 
+CHE1148H Process Data Analytics – Python and [CANDIDATE_NAME] notebooks, Data handling and analysis using Pandas, 
+
+       Sept 2020 – Present 
+
+machine learning algorithms 
+
+B.ASc Nanotechnology Engineering, University of Waterloo  
+GPA:3.8/4.0 
+
+  Sept 2013 – May 2018 
+
+WORK EXPERIENCE 
+
+Graduate Researcher 
+The Shoichet Lab (PI: Dr. [CANDIDATE_NAME])  
+
+July 2020 – Present 
+
+•  Develop and modify polymeric systems for the investigation of liver and lung disease models using disease 
+
+and healthy patient cells. 
+
+•  Create automated imaging and analysis processes for high throughput imaging systems (Opera Phenix) and 
+
+confocal microscopy systems for the laboratory.  
+
+•  Utilize Excel, Python, MATLAB, and ImageJ to clean, analyze, and visualize large amounts of quantitative and 
+
+qualitative data. Automated processes for time savings of 10 fold at minimum. 
+
+•  Conduct literature review and keep up to date with literature to identify gaps and trends in fields. 
+
+Fellow 
+Biomineralization and Biomimetics Lab (PI: Dr. [CANDIDATE_NAME])  
+Harvard University & Massachusetts Eye and Ear 
+
+Oct 2018 – Oct 2019 
+
+•  Developed  microbial  and  cellular  adhesion  assays  on  omniphobic  materials  for  tympanostomy  tubes 
+
+• 
+
+showing a reduction of up to 99% of bacterial attachment. 
+Interfaced  with  the  animal  study  and  development  team  to  provide  analysis,  feedback,  and  potential   
+improvements for in vivo studies. 
+
+Hardware Engineering Intern 
+Verily (formerly Google Life Sciences) 
+
+May 2017 – Aug 2017 
+
+•  Spearheaded  the  formulation  and  characterization  of  a  novel  polymer  platform  for  implantable  devices 
+
+resulting in 7 different formulations. 
+Initiated biocompatibility tests in compliance with ISO 10993. 
+Interfaced with various teams to develop new in-house procedures and testing protocols.  
+
+• 
+• 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Research Assistant 
+Biomechanics and Cell Mechanics Laboratory (PI: Dr. [CANDIDATE_NAME]) 
+Soochow University 
+
+Sep 2015 – Apr 2016 
+
+•  Developed, synthesized, and conducted experiments on novel polymers for tissue engineering applications. 
+•  Designed, prototyped, and tested multiple versions of knee braces for genu [CANDIDATE_NAME] (knock- knee) treatment 
+
+using CAD and 3D printing.  
+
+•  Wrote technical documents on completed work resulting in three published papers. 
+
+Research Assistant 
+Micro Engineering Dynamics and Automation Lab (PI: Dr. [CANDIDATE_NAME]) 
+University of Calgary 
+
+Jan 2015 – Apr 2015 
+
+•  Revised and extensively tested a novel aluminum-air battery. Led to a 24-fold increase in performance. 
+•  Assembled enclosures and holders for battery testing using CAD, 3D printing, and machining. 
+•  Designed and built a small-scale roller system and environmental controllers using Arduino.  
+•  Completed work set the foundation for one publication. 
+
+INVOLVEMENT 
+
+Co-chair and Advisor 
+Toronto Biomedical Engineering Conference 
+
+September 2022-Present 
+
+•  Oversee conference planning duties such as inviting speakers, developing workshops, managing a team 
+of 11 people, as well as booking venues and catering for the event. Increased attendance by 66.8% from 
+2022-2023 
+
+Business Lead and Technical Advisor 
+University of Waterloo Nanorobotics Group (UW_NRG) 
+
+2013 – 2018 
+
+•  Designed, tested, and debugged multiple microrobot setups as well as their control systems. 
+•  Constructed stages for the microrobots using machining and 3D printing. 
+•  Wrote and presented proposals to potential sponsors. Secured over $20,000 in funds for UW_NRG. 
+•  Competed in the annual Mobile Microrobotics Challenge at the International Conference on Robotics and 
+Automation. Two 1st place finishes (2013, 2016), one 2nd place finish (2015), one 3rd place finish (2014). 
+
+SIDEPROJECT 
+
+Japan Top Restaurants Map and Spreadsheet – Utilized Python to scrape over 5000 restaurant entries from a 
+Japanese food review website for the top restaurants in multiple cities. Organized, filtered, and displayed the 
+restaurants on Google Sheets for offline access/planning as well as Google maps for quick navigation. The tool was 
+released publicly on Reddit and garnered over 48,000 views and 1,700 shares within a day. 
+https://github.com/cwfling/Top-Japanese-Restaurants-Tabelog 
+
+SKILLS 
+
+Programming: Python, MATLAB, ImageJ, SQL , Java 
+Software: Microsoft Office, GraphPad, Google Suite (Docs, Sheets, Slides), Adobe Photoshop/Illustrator, 
+Solidworks 
+Languages: English, Chinese (Hakka dialect) 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

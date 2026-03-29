@@ -1,0 +1,292 @@
+[CANDIDATE_NAME] 
+[PHONE] | [EMAIL] | Toronto, ON, Canada 
+
+PROFESSIONAL STATEMENT 
+
+Formally trained engineer with extensive experience in designing and implementing high-throughput screening 
+assays and laboratory automation systems using confocal microscopes, image analysis tools, and scripts (Python, 
+ImageJ, MATLAB).  Proven ability to independently manage complex projects in various fields from concept to 
+validation, with strong proficiency in cell assays, microscopy, and material characterization. Motivated self-starter 
+evidenced by enrollment into data science courses and creation of tools/scripts to streamline processes or tasks. 
+
+EDUCATION 
+
+Ph.D Chemical Engineering Candidate, Shoichet Lab, University of Toronto 
+GPA:4.0/4.0 
+Relevant Coursework: 
+UofT DSI Data Science Certificate –Database structure and querying using SQLite, version tracking using [CANDIDATE_NAME] 
+CHE1148H Process Data Analytics – Python and [CANDIDATE_NAME] notebooks, Data handling and analysis using Pandas, 
+
+       Sept 2020 – Present 
+
+machine learning algorithms 
+
+B.ASc Nanotechnology Engineering, University of Waterloo  
+GPA:3.8/4.0 
+
+  Sept 2013 – May 2018 
+
+WORK EXPERIENCE 
+
+Graduate Researcher 
+The Shoichet Lab (PI: Dr. [CANDIDATE_NAME])  
+
+July 2020 – Present 
+
+•  Develop and modify polymeric systems for the investigation of liver and lung disease models using disease 
+
+and healthy patient cells. 
+
+•  Create automated imaging and analysis processes for high throughput imaging systems (Opera Phenix) and 
+
+confocal microscopy systems for the laboratory.  
+
+•  Utilize Excel, Python, MATLAB, and ImageJ to clean, analyze, and visualize large amounts of quantitative and 
+
+qualitative data. Automated processes for time savings of 10 fold at minimum. 
+
+•  Conduct literature review and keep up to date with literature to identify gaps and trends in fields. 
+
+Fellow 
+Biomineralization and Biomimetics Lab (PI: Dr. [CANDIDATE_NAME])  
+Harvard University & Massachusetts Eye and Ear 
+
+Oct 2018 – Oct 2019 
+
+•  Developed  microbial  and  cellular  adhesion  assays  on  omniphobic  materials  for  tympanostomy  tubes 
+
+• 
+
+showing a reduction of up to 99% of bacterial attachment. 
+Interfaced  with  the  animal  study  and  development  team  to  provide  analysis,  feedback,  and  potential   
+improvements for in vivo studies. 
+
+Hardware Engineering Intern 
+Verily (formerly Google Life Sciences) 
+
+May 2017 – Aug 2017 
+
+•  Spearheaded  the  formulation  and  characterization  of  a  novel  polymer  platform  for  implantable  devices 
+
+resulting in 7 different formulations. 
+Initiated biocompatibility tests in compliance with ISO 10993. 
+Interfaced with various teams to develop new in-house procedures and testing protocols.  
+
+• 
+• 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Research Assistant 
+Biomechanics and Cell Mechanics Laboratory (PI: Dr. [CANDIDATE_NAME]) 
+Soochow University 
+
+Sep 2015 – Apr 2016 
+
+•  Developed, synthesized, and conducted experiments on novel polymers for tissue engineering applications. 
+•  Designed, prototyped, and tested multiple versions of knee braces for genu [CANDIDATE_NAME] (knock- knee) treatment 
+
+using CAD and 3D printing.  
+
+•  Wrote technical documents on completed work resulting in three published papers. 
+
+Research Assistant 
+Micro Engineering Dynamics and Automation Lab (PI: Dr. [CANDIDATE_NAME]) 
+University of Calgary 
+
+Jan 2015 – Apr 2015 
+
+•  Revised and extensively tested a novel aluminum-air battery. Led to a 24-fold increase in performance. 
+•  Assembled enclosures and holders for battery testing using CAD, 3D printing, and machining. 
+•  Designed and built a small-scale roller system and environmental controllers using Arduino.  
+•  Completed work set the foundation for one publication. 
+
+INVOLVEMENT 
+
+Co-chair and Advisor 
+Toronto Biomedical Engineering Conference 
+
+September 2022-Present 
+
+•  Oversee conference planning duties such as inviting speakers, developing workshops, managing a team 
+of 11 people, as well as booking venues and catering for the event. Increased attendance by 66.8% from 
+2022-2023 
+
+Business Lead and Technical Advisor 
+University of Waterloo Nanorobotics Group (UW_NRG) 
+
+2013 – 2018 
+
+•  Designed, tested, and debugged multiple microrobot setups as well as their control systems. 
+•  Constructed stages for the microrobots using machining and 3D printing. 
+•  Wrote and presented proposals to potential sponsors. Secured over $20,000 in funds for UW_NRG. 
+•  Competed in the annual Mobile Microrobotics Challenge at the International Conference on Robotics and 
+Automation. Two 1st place finishes (2013, 2016), one 2nd place finish (2015), one 3rd place finish (2014). 
+
+SIDEPROJECT 
+
+Japan Top Restaurants Map and Spreadsheet – Utilized Python to scrape over 5000 restaurant entries from a 
+Japanese food review website for the top restaurants in multiple cities. Organized, filtered, and displayed the 
+restaurants on Google Sheets for offline access/planning as well as Google maps for quick navigation. The tool was 
+released publicly on Reddit and garnered over 48,000 views and 1,700 shares within a day. 
+https://github.com/cwfling/Top-Japanese-Restaurants-Tabelog 
+
+SKILLS 
+
+Programming: Python, MATLAB, ImageJ, SQL , Java 
+Software: Microsoft Office, GraphPad, Google Suite (Docs, Sheets, Slides), Adobe Photoshop/Illustrator, 
+Solidworks 
+Languages: English, Chinese (Hakka dialect) 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Question #1: My Ikigai 
+
+My Ikigai centers on accelerating innovation through automation and data intelligence. 
+
+The intersection of my passions and skills lies in identifying bottlenecks in complex scientific 
+processes and removing them. I love the "detective work" of analyzing a problem (whether in 
+batteries, tissue engineering, or metallurgy) and the satisfaction of building a tool that solves it 
+permanently. My talents in Python, microscopy, and hardware engineering allow me to bridge 
+the gap between traditional wet-lab science and modern data science—a gap that the world 
+(specifically the biotech and medical technology sectors) desperately needs to close to improve 
+healthcare outcomes. 
+
+I am driven to create a lasting impact by building systems that allow scientists to focus on 
+discovery rather than repetitive tasks. To align my career with this, I am pivoting from pure 
+academic research to industry roles where scalability is key, such as Data Science or 
+Automation Engineering. I am ready to compromise on the "freedom" of academic exploration to 
+achieve the tangible, high-velocity impact of industry product development. Living my Ikigai 
+means constantly learning new tools (like my recent deep dive into SQL and Machine Learning) 
+to ensure I am always the most efficient problem-solver in the room. 
+
+Question #2: My Ideal Day 
+
+My ideal professional day is a mix of technical problem-solving and cross-functional 
+collaboration. It starts with a brief team stand-up where we align on the day's sprint—I thrive in 
+environments where engineering and science teams interface, like I did at Verily. 
+
+The morning is deep-work time: I am coding a Python script to automate a data pipeline or 
+refining an image analysis algorithm. I enjoy the "flow state" of debugging and optimizing code 
+to shave seconds or minutes off a process. [CANDIDATE_NAME] is social; I enjoy connecting with colleagues 
+from different backgrounds to learn about their specific challenges. 
+
+In the afternoon, I switch to "bridge" mode—translating complex data insights into actionable 
+summaries for stakeholders, similar to how I managed the Biomedical Engineering Conference. 
+I might spend an hour testing a new hardware prototype or validating a model against real-world 
+data. The day ends with a sense of tangible progress—having built a tool or generated an 
+insight that didn't exist in the morning. 
+
+Question #3: Job Titles 
+
+1.  Data Scientist (Biotech/Pharma): This role is my primary target. It leverages my UofT 
+Data Science certification and my PhD experience in handling large datasets. It allows 
+me to use my domain knowledge in biology/chemistry to interpret data more effectively 
+than a generalist data scientist could. 
+
+2.  Automation Process Engineer: I have a proven track record of reducing manual labor 
+
+(e.g., 10-fold time savings in the Shoichet Lab). I enjoy the hardware-software 
+
+intersection of this role, designing high-throughput screening assays that function 
+autonomously. 
+
+3.  R&D Engineer (Medical Devices): Drawing on my experience at Verily and my 
+
+background in materials, this role appeals to my desire to build tangible products. It 
+combines my skills in ISO compliance, prototyping, and experimental design. 
+
+4.  Product Manager (Technical): With my experience leading the Nanorobotics Group 
+
+and organizing conferences, I have the leadership and organizational skills to manage 
+product lifecycles. I enjoy the strategic aspect of aligning technical capabilities with 
+market needs. 
+
+Question #4: S.M.A.R.T Goals 
+
+●  Goal 1 (Career): Secure a full-time position as a Data Scientist or Automation Engineer 
+
+in the Greater Toronto Area or remotely by May 2026. 
+
+○  Measurable: Apply to 5 relevant jobs per week and secure at least 3 interviews 
+
+per month. 
+
+○  Attainable: leveraging my PhD defense timeline and current interview 
+
+momentum. 
+
+●  Goal 2 (Technical Skill): Complete the UofT DSI Data Science Certificate and build one 
+
+end-to-end MLOps project (deploying a model to the cloud) by April 1, 2026. 
+
+○  Measurable: Certificate issued; GitHub repository live with deployment 
+
+documentation. 
+
+○  Realistic: I am already enrolled and have a foundation in Python. 
+●  Goal 3 (Networking): Expand my professional network outside of academia by 
+
+connecting with 20 industry professionals on LinkedIn in the HealthTech space by June 
+2026. 
+
+○  Measurable: Send 5 personalized connection requests weekly; schedule 1 coffee 
+
+chat per month. 
+
+○  Time-bound: Start immediately, review progress monthly. 
+
+ 
+
+Selected Job Offer Position: Data Scientist, Drug Discovery (Hypothetical Biotech Company) 
+Key Requirements: 
+
+●  PhD in Engineering, Biology, or related field. 
+●  Proficiency in [CANDIDATE_NAME] (Pandas, Scikit-learn) and SQL. 
+●  Experience with high-throughput screening data and image analysis. 
+●  Ability to translate biological questions into data problems. 
+
+The Elevator Pitch 
+
+"Hi, I’m Christopher. I’m a PhD candidate in Chemical Engineering at U of T, but I think of myself 
+as an engineer who speaks fluent 'data.' 
+
+In my research, I realized that the biggest bottleneck wasn't the science itself, but how we 
+handled the data. I didn't just run experiments; I built automated Python pipelines and imaging 
+systems that reduced our analysis time by 10-fold. I essentially turned our wet lab into a data 
+factory. 
+
+I noticed you’re looking for someone to bridge the gap between high-throughput screening and 
+data science. Because I’ve actually done the pipetting and the coding—from analyzing confocal 
+microscopy images to scraping 5,000 datasets for my own side projects—I can clean and 
+interpret your biological data faster and with more context than a standard data scientist. 
+
+I’m looking to bring that efficiency to a team like yours where I can help accelerate the discovery 
+pipeline. I’d love to hear how your team is currently handling its screening data." 
+
+○ 
+
+ 
+ 
+

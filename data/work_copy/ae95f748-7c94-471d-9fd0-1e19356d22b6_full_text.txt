@@ -1,0 +1,248 @@
+Document 1: Assignment 1 (Clarify) 
+
+Question #1: My Ikigai 
+
+My Ikigai is innovating safe, bio-functional solutions that bridge the lab and the market. 
+
+The central theme of my career is "Translation." I don't just want to synthesize novel 
+materials; I want to ensure they reach the people who need them. My passion lies in 
+Biomaterials (specifically collagen and hydrogels) and Cosmetic Science. My talent is 
+dual-faceted: I can engineer a complex scaffold at the nano-level using electrospinning , 
+but I also understand the Regulatory Pathways (FDA/Health Canada) required to get it 
+approved. 
+
++4 
+
+The world needs therapeutic and aesthetic products that are backed by rigorous science, 
+not just marketing. By combining my technical R&D skills with my regulatory experience, 
+I create a lasting impact: ensuring that high-performance products (whether wound 
+dressings or anti-aging skincare) are safe and effective. To align my career with this, I am 
+targeting Pharma and Science-backed Skincare, where compliance and innovation must 
+coexist. 
+
+Question #2: My Ideal Day 
+
+My ideal day is a balance of high-tech characterization and strategic oversight. 
+
+It starts in the lab, where I am analyzing the surface topography of a new collagen 
+formulation using Atomic Force Microscopy (AFM). I love the precision of visualizing 
+material interactions at the nanoscale. 
+
+By mid-day, I shift to "Regulatory Mode." I review the technical documentation for a new 
+product line, ensuring our SOPs align with GMP and ISO 10993 standards. I enjoy 
+identifying potential compliance risks before they become problems. The afternoon is for 
+collaboration—perhaps mentoring a junior researcher on experimental design or 
+discussing AI-driven diagnostic tools with my cross-functional team. The day ends with a 
+sense of holistic progress—advancing the science while protecting the patient. 
+
++2 
+
+Question #3: Job Titles 
+
+1.  R&D Senior Scientist (Biomaterials/Formulation): This aligns with my PhD 
+
+research in collagen scaffolds and my certificate in Cosmetic Science. It is my top 
+choice for companies like Deciem or J&J. 
++1 
+
+2.  Regulatory Affairs Specialist / Manager: I have direct experience managing 
+
+regulatory submissions for Class I/II devices. This role leverages my ability to 
+navigate ISO 13485 and GMP frameworks. 
+
+3.  Clinical Research Scientist: With my Good Clinical Practice (GCP) certification and 
+experience in biomedical testing, I can lead the validation phase of new medical 
+products. 
++1 
+
+4.  Application Scientist: My broad skill set in characterization (SEM, FTIR, HPLC) 
+makes me an ideal candidate to demonstrate complex technologies to clients. 
+
+Question #4: S.M.A.R.T Goals 
+
+●  Goal 1 (Career Placement): Secure a Senior R&D or Regulatory position at a target 
+
+pharmaceutical or skincare company (e.g., Johnson & Johnson, Deciem) by 
+August 2026. 
+
+○  Measurable: Apply to 3 targeted roles weekly; leverage my OBIO/CATTI 
+
+training to network with 2 industry leaders per month. 
+
+○  Attainable: My hybrid background makes me a strong candidate for these 
+
+specific sectors. 
+
+●  Goal 2 (Technical Expansion): Complete a proof-of-concept project applying CNNs 
+
+(Machine Learning) to biomaterial image analysis by May 2026. 
+
+○  Measurable: Submit an abstract on "AI in Biomaterials" to a local 
+
+conference. 
+
+○  Realistic: This aligns with my current Postdoc research. 
+
+●  Goal 3 (Leadership): Transition my current academic leadership roles (GPDSS 
+President) into a professional mentorship role within a "Women in Science" 
+industry network by December 2026. 
+
+○  Measurable: Join one industry committee or mentorship circle. 
+○  Time-bound: By year-end 2026. 
+
+ 
+
+[CANDIDATE_NAME] 
+
+[EMAIL] | [PHONE] | linkedin.com/in/mina-vaez | Toronto, Canada  
+
+R&D Senior Scientist  
+PhD-trained Biomedical Scientist with 5+ years of hands-on experience in biomaterials, polymer 
+engineering, and medical device research and development. Proven track record in collagen and 
+biopolymer-based material design, mechanical and biochemical characterization, and GMP/GLP 
+compliance. Experienced in cross-functional collaboration, regulatory documentation, and project 
+leadership from concept through validation.  
+
+EDUCATION  
+
+Ph.D. in Biomedical Engineering, Faculty of Dentistry, University of Toronto, Toronto • 2025                                                                                              
+M.Sc. in Biomaterial Engineering, University of Tehran, Tehran • 2019                    
+B.Sc. in Material Science and Engineering, Iran University of Science and Technology, Tehran • 2016   
+SKILLS  
+
+Biomaterials & Polymer Science: Collagen scaffolds, gelatin, CMC, hydrogels, electrospinning, material 
+modification, degradation studies, and sterilization methods. 
+Characterization Techniques: FTIR, SEM, AFM, XRD, viscometry, HPLC, mechanical testing, spectroscopy, 
+and protein-ligand conjugation. 
+Regulatory & Quality Systems: GMP/GLP, ISO 10993 familiarity, SOPs, risk assessment, documentation for 
+Class I/II devices. 
+Biological & Biocompatibility Testing: Cytotoxicity assays, ELISA, enzymatic activity, in vitro and ex vivo 
+models. 
+Project Management & Communication: Technical reporting, cross-team collaboration, mentoring, data 
+presentation, and scientific publications. 
+Tools & Software: GraphPad Prism, Origin, MS Office, ImageJ, SPSS, ChemDraw.                                 
+
+EXPERIENCE 
+
+Postdoctoral Fellow, Faculty of Dentistry, University of Toronto • 09/2025-Present    
+
+•  Conducting advanced research on the application of artificial intelligence and machine learning models 
+(CNNs) for microscopic and clinical images for automated feature extraction and pattern recognition to 
+enhance diagnostic precision. 
+
+•  Designing and executing mechanical and biochemical characterization studies of material–tissue 
+
+interaction.  
+
+Graduate Researcher, Bozec-lab, Faculty of Dentistry, University of Toronto  • [PHONE]   
+
+•  Developed and optimized collagen-based scaffolds and biomimetic materials with enhanced mechanical 
+
+stability and biocompatibility.  
+
+•  Conducted FTIR, AFM, and mechanical testing to correlate material structure with biological performance.  
+•  Managed biocompatibility and degradation studies, ensuring adherence to biosafety and GMP standards. 
+•  Collaborated with interdisciplinary teams on therapeutic material design, ensuring compliance with 
+
+biosafety and discovery quality standards. 
+
+•  Mentored junior researchers in experimental design, documentation, and adherence to GLP and GMP 
+
+standards. 
+
+•  Led preparation of manuscripts, abstracts, and presentations, resulting in 8+ peer-reviewed publications 
+
+and 5+ international conference presentations. (Google Scholar)  
+
+Regulatory compliance manager in Bonyan Darman Parsian Company, Iran • [PHONE] 
+
+•  Oversaw regulatory submissions and compliance for Class I and II medical devices under GMP frameworks. 
+• 
+ Collaborated  with  national  regulatory  authorities  and  ensured  technical  documentation  met  ISO  13485 
+requirements. 
+
+Regulatory and Quality Specialist in [CANDIDATE_NAME] Parsian Company, Iran • [PHONE] 
+
+•  Assisted in preparing regulatory submissions and technical documentation for medical devices. 
+•  Tracked changes in national regulatory requirements and provided summaries to senior management. 
+
+Graduate Researcher, University of Tehran • [PHONE] 
+
+•  Developed core-shell electrospun NO releasing wound dressing for enhanced wound-healing.  
+•  Presented research findings in nationally recognized conferences. 
+•  Published paper in peer-reviewed journals through inter-institutional collaborations. 
+
+HONORS & AWARDS 
+
+•  University of Toronto Student Leadership Award (UTSLA) • 2024            
+•  Travel award for CBS conference sponsored by Humabiologics Inc. • 2022                 
+•  Wilson G. Harron 3 Minute Thesis Competition Award • 2021 
+•  Dr. [CANDIDATE_NAME] Memorial Award • 2020 & 2021 
+•  Faculty of Dentistry Harron scholarship • 2021-2023 
+
+VOLUNTEERING & LEADERSHIP  
+
+•  President, Graduate and Post-Graduate Dental Students Society (GPDSS) • 2023-2024 
+•  VP Learning and Development, Graduate Super Women Engineers (GradSWE U of T) • 2023-2024 
+•  Social Director, UofT Biomedical Engineering Students’ Association (BESA) • 2022-2023 
+•  Treasurer, Graduate and Post-Graduate Dental Students Society (GPDSS) • 2022-2023 
+•  Publication Co-Chair, Toronto Biomedical Engineering Conference • 2022 
+
+TRAINING & CERTIFICATES 
+
+•  Biomanufacturing for Advanced Therapies - Quality Control and Microbiology (CATTI & OBIO, University 
+
+of Guelph) • 2025 
+
+•  Good Clinical Practice (Novartis) • 2024 
+•  Cosmetic Science and Ingredients Specialization (Olay) • 2025 
+•  Business Fundamentals (mini-MBA) (by Graduate Management Consulting Association) • 2024 
+•  Commercialization of regenerative medicine (by medicine by design) • 2023 
+•  Atomic Force Microscopy trainer and mentor, CAMiLoD, University of Toronto •2021 
+•  Certified technical officer of Medical Equipment Manufacturers by Iranian Medical Device Society • 2017 
+
+PATENT 
+
+Mina  Vaez,  [CANDIDATE_NAME],  [CANDIDATE_NAME],  “Generating  Electricity  by  Foot  Pressure  throughout 
+Walking”, February 2010, Department of Companies Registration & Industrial Property. (IR-63685) 
+
+ 
+ 
+   
+ 
+ 
+
+Document 2: Assignment 4 (Pitch) 
+
+Selected Job Offer Position: Senior Scientist, R&D (Personal Care / Biomaterials) Target: 
+Deciem (The Abnormal Beauty Company) or Johnson & Johnson Key Requirements: 
+
+●  PhD in Chemistry, Bioengineering, or related field. 
+●  Experience with biopolymers, proteins (collagen), and formulations. 
+●  Knowledge of GLP/GMP and regulatory standards. 
+●  Ability to lead projects from concept to validation. 
+
+The Elevator Pitch 
+
+"Hi, [CANDIDATE_NAME]. I am a Biomedical Scientist who bridges the gap between molecular 
+innovation and regulatory compliance. 
+
+I have a PhD in Biomedical Engineering where I specialized in collagen-based scaffolds 
+and hydrogels, giving me deep expertise in the very ingredients that drive 
+high-performance skincare and wound care. But unlike many researchers, I also have 
+professional experience as a Regulatory Compliance Manager. I’ve managed ISO 13485 
+submissions and know exactly what it takes to bring a Class II medical device—or a 
+bioactive cosmetic—safely to market. 
+
++2 
+
+Currently, I’m expanding my skillset into AI and Machine Learning at U of T, looking for 
+ways to use data to predict material performance. 
+
+I’m interested in [Company Name] because you prioritize science-backed claims. I want 
+to bring my ability to design novel biopolymers and my knowledge of global regulatory 
+landscapes to your R&D team, ensuring your next generation of products is both 
+innovative and compliant." 
+
+ 
+

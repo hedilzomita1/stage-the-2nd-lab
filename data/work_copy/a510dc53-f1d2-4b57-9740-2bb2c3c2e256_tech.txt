@@ -1,0 +1,205 @@
+[CANDIDATE_NAME]        
+  Winnipeg, MB, Canada 
+[EMAIL]                                                                Phone: [PHONE] 
+https://www.linkedin.com/in/prabu-karthick-parameshwar 
+
+SUMMARY 
+ Highly-driven  researcher  with  7+  years  of  experience  in  cell  culture,  biomaterials,  microfabrication  and 
+
+tissue engineering as well as strong leadership and cross-disciplinary research expertise  
+ Looking to join a biotech company to contribute towards research efforts (willing to relocate) 
+
+EDUCATION 
+o  Doctor of Philosophy (Ph.D.), Biological and Biomedical Engineering  
+Faculty of Medicine and Health Sciences, McGill University, Montréal, QC, Canada 
+  Fast-tracked from Master of Engineering (M. Eng – Thesis Based) in 2019 
+  Thesis: Microenvironmental regulation of placental trophoblast fusion 
+
+(cGPA: 3.95/4.00)    2017-2024 
+
+o  Bachelor of Applied Science (B.A.Sc.) in Engineering Science  
+Faculty of Applied Science and Engineering, University of Toronto, Toronto, ON, Canada 
+
+(cGPA: 3.27/4.00)    2013-2017 
+
+  Major: Biomedical Systems Engineering 
+  Thesis: Mechanical stimulation of cell-seeded hydrogels for connective tissue engineering. 
+
+SKILLS & EXPERTISE 
+•  Technical Skills: human cell culture (cell lines, primary cells, stem cells, co-culture), differentiation, histology, 
+
+microscopy (fluorescence, confocal), microfabrication, microfluidics, instrumentation, 3D (bio)printing  
+•  Bioassays: RNA/DNA extraction, PCR, gel electrophoresis, UV spectrometry, immunostaining, ELISA 
+•  Software: MS Office, AutoCAD, LabVIEW, ImageJ, Biorender, MATLAB, G-code, Statistics – JASP, JMP 
+•  Lab Certifications: Biosafety, WHMIS 2015, Hazardous waste management, up-to-date vaccinations 
+•  Soft skills: Organization, time management, critical thinking, resilience and adaptability 
+
+RESEARCH EXPERIENCE 
+•  Graduate Research Scientist @ McGill University 
+
+   Sept 2017-April 2024 
+o  Worked  with  Dr.  [CANDIDATE_NAME]  on  in  vitro  differentiation  of  placenta  trophoblast  cells  to  create 
+
+fused sheets through biomechanical and biomaterial interventional methods  
+
+o  Designed and implemented a process to fabricate  nanoparticles from decellularized placentas, as  well  as 
+characterized its efficacy in using it as a fusion-inducing biomaterial coating on hydrogels with cell sheets 
+o  Collaborated with Dr. [CANDIDATE_NAME] at the Montréal General Hospital to evaluate mechanical 
+compression protocols and enhanced pro-fusion conditions by up to 30%  in 2D cell sheets/3D spheroids 
+
+o  Modified an existing 3D printer to create a moving UV light source for lithography applications 
+o  Developed and established an SOP for the fabrication and utilization of a microfluidic device for extended 
+
+culture of testes tissues over 14 days to assess spermatogenesis in a rat model 
+  Done  in  collaboration  with  Dr.  [CANDIDATE_NAME]  Nagano  at  the  Research  Institute  of  the  [CANDIDATE_NAME]  University 
+
+Health Centre (RI-MUHC) from 2019-2022; eventually to be used for human experiments 
+
+o  Lead the planning, experimental design and execution of 7 multidisciplinary projects along with supervis-
+ing  5  undergraduate  research  students, resulting  in 5  conference  presentations,  4  journal  articles,  1  tech-
+nical note and 2 literature review publications (Google Scholar) 
+
+•  Undergraduate Research Scientist @ University of Toronto   
+
+   May 2016-April 2017 
+o  Worked  with  Dr.  [CANDIDATE_NAME]  to  implement  high-frequency  mechanical  stimulation  on  hydrogel-
+encapsulated mesenchymal stem cells and maximally promoted differentiation into myofibroblasts and their 
+protein production over 7 days 
+
+o  Created a basic experimental setup and developed a computer interface to perform electrical cell impedance 
+
+sensing (ECIS) over several weeks in a blood-brain barrier model 
+
+1 
+
+        
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+    
+[CANDIDATE_NAME]        
+  Winnipeg, MB, Canada 
+[EMAIL]                                                                Phone: [PHONE] 
+https://www.linkedin.com/in/prabu-karthick-parameshwar 
+
+LEADERSHIP EXPERIENCE 
+•  Cleanroom Manager and Safety Officer @ [CANDIDATE_NAME], McGill University    
+
+       Jan 2019-Dec 2023 
+
+o  Co-ordinated  the  establishment  of  new  cleanroom  workspace  in  the  lab  from  room  expansion  to                
+
+installation  of  a  portable  cleanroom  tent  along  with  the  set  up  of  microfabrication  equipment  such  as  a 
+work hood, spincoater, 3D printer, degassing chambers, ovens and UV protective lights 
+
+o  Trained and helped 30+ users get started with their projects on various aspects of microfabrication 
+o  Established  contacts  with  industry  sales  and  technical  representatives  to  arrange  for  quotations,  products 
+
+and expertise to perform scheduled maintenance on a plasma cleaner and vacuum pumps 
+
+o  [CANDIDATE_NAME] up-to-date records of cleanroom product inventory and a users database for valid certifications  
+o  Ensured the safe operation of this facility by organizing regular safety tours, developed and graded safety 
+
+quizzes to assess levels of understanding and updated protocols as required 
+
+o  Contributed to the development of organ-on-chip models for the placenta, salivary glands and gut 
+
+TEACHING EXPERIENCE 
+•  Teaching Assistant  @ Department of Bioengineering, McGill University                 
+
+  BIEN 290 (Bioengineering Measurement Laboratory)  
+
+       Sept-Dec 2019, 2021, 2022 & 2023 
+  Undergraduate level course which deals with lab safety and basic hands-on wet lab concepts (including 
+3D bioprinting with collagen) for introductory bioengineering experiments (200+ students over 4 years) 
+
+  Lead laboratory sessions, demonstrated experiments and assessed lab reports; 180 hours per term 
+  Delivered a guest lecture on MATLAB for simulation analysis (2021-2022) 
+  Designed a new lab module on using Design of Experiments (DoE) for bead size analysis (2023) 
+
+  BIEN 530 (Imaging and Bioanalytical Instrumentation) 
+
+  Jan-Apr 2021 
+
+  Graduate/Undergraduate level course which provides an overview of several microscopy systems and 
+
+image analysis techniques using ImageJ (30 students) 
+
+  Assessed problem sets, midterms and partially graded final projects; 85 hours per term 
+
+CERTIFICATIONS/ADDITIONAL TRAINING 
+•  Regulatory -  What is CMC, QbD, QA/QC and facility qualification 
+•  Introduction to Cell Therapy and principles of cell line development  
+•  Regulatory – What is GMP, GDP, [CANDIDATE_NAME] and process validation   
+•  On-Demand Training Courses  
+
+(Cytiva) 
+(Cytiva)     
+(Cytiva) 
+
+(STEMCELL Technologies)  
+
+2025 
+2024 
+2024 
+2023-2024 
+
+o  Pluripotent [CANDIDATE_NAME] (PSC), PSC 3D suspension culture, Neural induction, and Enhancing sensitivity for 
+
+detection of genetic aberrations in multiple myeloma  
+
+•  Design of Experiments (DoE) Badge    
+•  Bioinnovation Scientist Level 1 Program (+drug commercialization) 
+•  Research Data Management Learning Program 
+
+(SAS Institute)   
+(adMare)  
+(McGill University)  
+
+2023 
+2021-2022  
+2021 
+
+LANGUAGES KNOWN 
+•      English & Tamil (bilingual proficiency); French & Hindi (professional working proficiency) 
+
+EXTRA-CURRICULARS 
+•  Graduate Orientation Ambassador  @ Campus Life & Engagement, McGill University  
+
+        2018-2023 
+o  Introduced various University and student-led services available for new graduate students as the graduate 
+
+student ambassador for my department’s student orientations every year since 2018 
+
+INTERESTS & HOBBIES 
+•  Museums, drums, photography, cooking 
+
+2 
+
+        
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

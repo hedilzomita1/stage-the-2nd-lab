@@ -1,0 +1,87 @@
+[
+    {
+        "job_id": "job_1_direct_match",
+        "job_filepath": "data/raw_jobs/Job_1_DirectMatch_StructuralBio.pdf",
+        "description_type": "Offre parfaite pour Javier (2). Mina en backup (1) pour les biomatériaux.",
+        "qrels": {
+            "CANDIDATE_78B50574": 2,
+            "CANDIDATE_7D6D5D5E": 1,
+            "CANDIDATE_F4A1A03C": 0,
+            "CANDIDATE_2E4A2750": 0,
+            "CANDIDATE_1EEF7CA2": 0,
+            "CANDIDATE_08D63E65": 0,
+            "CANDIDATE_66269BCD": 0,
+            "CANDIDATE_A5630CE0": 0,
+            "CANDIDATE_AF969590": 0,
+            "CANDIDATE_CF5D7F32": 0
+        }
+    },
+    {
+        "job_id": "job_2_semantic_hyde",
+        "job_filepath": "data/raw_jobs/Job_2_Semantic_HyDE.pdf",
+        "description_type": "Offre sémantique pour Mahdieh (2). Claire Phan en backup (1) pour l'impression 3D SLA/PLA.",
+        "qrels": {
+            "CANDIDATE_78B50574": 0,
+            "CANDIDATE_7D6D5D5E": 0,
+            "CANDIDATE_F4A1A03C": 2,
+            "CANDIDATE_2E4A2750": 1,
+            "CANDIDATE_1EEF7CA2": 0,
+            "CANDIDATE_08D63E65": 0,
+            "CANDIDATE_66269BCD": 0,
+            "CANDIDATE_A5630CE0": 0,
+            "CANDIDATE_AF969590": 0,
+            "CANDIDATE_CF5D7F32": 0
+        }
+    },
+    {
+        "job_id": "job_3_noisy_corporate",
+        "job_filepath": "data/raw_jobs/Job_3_Noisy_Corporate.pdf",
+        "description_type": "Offre bruitée pour Christopher Ling (2). Paria en backup (1). Test de résistance à la dilution.",
+        "qrels": {
+            "CANDIDATE_78B50574": 0,
+            "CANDIDATE_7D6D5D5E": 0,
+            "CANDIDATE_F4A1A03C": 0,
+            "CANDIDATE_2E4A2750": 0,
+            "CANDIDATE_1EEF7CA2": 2,
+            "CANDIDATE_08D63E65": 0,
+            "CANDIDATE_66269BCD": 0,
+            "CANDIDATE_A5630CE0": 1,
+            "CANDIDATE_AF969590": 0,
+            "CANDIDATE_CF5D7F32": 0
+        }
+    },
+    {
+        "job_id": "job_4_garbage",
+        "job_filepath": "data/raw_jobs/Job_4_Garbage_Boulanger.pdf",
+        "description_type": "Offre hors domaine (Boulanger). Test de rejet absolu : aucun candidat ne doit matcher.",
+        "qrels": {
+            "CANDIDATE_78B50574": 0,
+            "CANDIDATE_7D6D5D5E": 0,
+            "CANDIDATE_F4A1A03C": 0,
+            "CANDIDATE_2E4A2750": 0,
+            "CANDIDATE_1EEF7CA2": 0,
+            "CANDIDATE_08D63E65": 0,
+            "CANDIDATE_66269BCD": 0,
+            "CANDIDATE_A5630CE0": 0,
+            "CANDIDATE_AF969590": 0,
+            "CANDIDATE_CF5D7F32": 0
+        }
+    },
+    {
+        "job_id": "job_5_needle_haystack",
+        "job_filepath": "data/raw_jobs/Job_5_Needle_Haystack.pdf",
+        "description_type": "Compétence rare (ECIS) pour Prabu (2). Mahdieh (1) pour la microfluidique et Claire Phan (1) pour la salle blanche.",
+        "qrels": {
+            "CANDIDATE_78B50574": 0,
+            "CANDIDATE_7D6D5D5E": 0,
+            "CANDIDATE_F4A1A03C": 1,
+            "CANDIDATE_2E4A2750": 1,
+            "CANDIDATE_1EEF7CA2": 0,
+            "CANDIDATE_08D63E65": 0,
+            "CANDIDATE_66269BCD": 0,
+            "CANDIDATE_A5630CE0": 0,
+            "CANDIDATE_AF969590": 2,
+            "CANDIDATE_CF5D7F32": 0
+        }
+    }
+]

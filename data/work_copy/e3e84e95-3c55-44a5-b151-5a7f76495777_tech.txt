@@ -1,0 +1,159 @@
+[CANDIDATE_NAME], PhD 
+[EMAIL] ▪ [PHONE] 
+https://www.linkedin.com/in/javier-rodriguez-g/ 
+
+I  am  a  structural  and  molecular  biologist  with  7+  years  of  experience  in  protein  structure–function 
+analysis, and biophysical and biochemical protein characterization. I am an expert in cryo-EM and X-ray 
+crystallography with a proven record of optimizing the expression and purification of challenging protein 
+complexes,  generating  high-resolution  structures,  and  collaborating  with  cross-functional  teams  in 
+academia  and  industry.  Passionate  about  translating  molecular  insight  into  actionable  data  that 
+accelerates drug target validation and lead optimization. 
+
+RESEARCH EXPERIENCE 
+Doctoral researcher ▪ McGill University 
+Alba Guarné Group ▪ Montreal, Canada ▪ [PHONE] 
+
+•  Designed and executed structure-function studies of DNA repair endonucleases using cryo-EM, 
+
+X-ray crystallography and SAXS to elucidate mechanisms of recruitment and activation. 
+
+•  Optimized  recombinant  expression  and  purification  protocols  for  >15  challenging  proteins  and 
+
+multi-protein complexes, improving their yield more than 4-fold. 
+
+•  Characterized  proteins  of  interest  through  DNA  binding  and  cleavage,  cross-linking,  protein-
+protein interaction and thermal shift assays, to identify key residues involved in enzymatic activity. 
+•  Developed optimized preparation protocols for challenging cryo-EM samples (Vitrobot, Technical 
+
+TF20), enabling the consistent acquisition of high-quality datasets in a Titan Krios. 
+
+•  Designed a site-specific cross-linker to increase the resolution of a protein-DNA complex from 11 
+
+Å to 3.8 Å using cryo-EM. 
+
+•  Led multiple structural biology projects in parallel, including a collaboration with Neophore (UK) 
+
+on structure-guided inhibitor design, which resulted in a submission to Cell (under review). 
+
+•  Successfully wrote applications to secure a full Ph.D. scholarship (Mexican National Council of 
+
+Science and Technology, 2019-2024) and four additional competitive awards. 
+
+•  Communicated complex structural biology findings at national and international venues. 
+•  Supervised five undergraduate students doing research projects and trained four new graduate 
+students, resulting in results in peer-reviewed publications and successful grant proposals. 
+
+Enzymology research intern ▪ Repare Therapeutics 
+Montreal, Canada ▪ [PHONE] 
+
+•  Characterized cancer drug target proteins and evaluated small-molecule inhibitors using high-
+
+throughput enzymatic assays (384-well format). 
+
+•  Generated kinetic and affinity data supporting lead compound optimization by the medicinal 
+
+chemistry team. 
+
+•  Contributed  to  cryo-EM  structural  analysis  of  inhibitor-bound  protein  complexes,  informing 
+
+structure-guided drug design. 
+
+•  Designed  and  conducted  thermal  unfolding  and  spectral  shift  experiments  (Prometheus, 
+
+Dianthus) to evaluate target potency. 
+
+KEY SKILLS AND STRENGTHS 
+
+•  Structural biology: Cryo-EM (VitroBot, Tecnai TF20, Titan Krios) ▪ X-ray crystallography (NT8, 
+sparse matrix screens, manual tray optimization) ▪ Data collection & processing ▪ Negative stain 
+EM ([CANDIDATE_NAME]) ▪ SAXS  
+
+•  Protein science: Protein expression in E. coli & S. cerevisiae ▪ Protein purification (AKTA, IMAC, 
+
+IEX, SEC, gravity columns) ▪ Construct design ▪ Molecular cloning ([CANDIDATE_NAME] assembly, LIC) 
+
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Biophysical  techniques:  Dynamic  light  scattering  ▪  Thermal  shift  ▪  Circular  dichroism  ▪  Mass 
+
+photometry ▪ Cross-linking MS ▪ Spectral shift 
+
+•  Software: cryoSPARC ▪ RELION ▪ Chimera ▪ CCP4 ▪ XDS ▪ HKL2000 ▪ Phenix ▪ Coot ▪ PyMOL 
+•  Personal skills:  Collaborative work ▪ Mentoring students ▪ Time management ▪ Record keeping 
+
+▪ Experimental design ▪ Troubleshooting ▪ Protocol development 
+
+LEADERSHIP EXPERIENCE 
+President Biochemistry Graduate Student Society ▪ [PHONE] 
+
+-  Led a team of 16 students in organizing 10+ academic, social and wellness initiatives for over 100 
+
+biochemistry graduate students at [CANDIDATE_NAME]. 
+
+-  Collaborated with departments across McGill to organize and fund events. 
+-  Spearheaded the annual Biochemistry Research Day (80+ attendees), overseeing sponsorship, 
+
+logistics and communication. 
+
+EDUCATION 
+Biochemistry Ph.D., Department of Biochemistry, McGill University (Canada)  [PHONE] 
+Biochemistry M.Sc., Department of Biochemistry, McGill University (Canada)  [PHONE] 
+Biotechnology  Engineering  B.S.,  Monterrey  Institute  of  Technology  and 
+Higher Education (Mexico) 
+
+LANGUAGES 
+English (fluent), French (advanced), and Spanish (native). 
+
+SELECTED PUBLICATIONS 
+•  [CANDIDATE_NAME], J., Davis, [CANDIDATE_NAME], [CANDIDATE_NAME], H., Erie, D. A. & Guarné, A. (2025). Bacillus subtilis 
+MutL samples multiple conformations during nucleotide binding and hydrolysis. Structure (Cell Press). 
+•  [CANDIDATE_NAME], [CANDIDATE_NAME], [CANDIDATE_NAME], Surtees, J.A. & Guarné, A. (2025) Rad1-Rad10 uses 
+
+different interfaces to interact with pathway-specific DNA repair factors. Pending submission. 
+
+•  Hoemann, C. D., [CANDIDATE_NAME], J., Guzmán-Morales, [CANDIDATE_NAME], [CANDIDATE_NAME], [CANDIDATE_NAME], [CANDIDATE_NAME], [CANDIDATE_NAME], & Favis, B. D. 
+immune  bioactivities  differentially  stimulate 
+(2021).  [CANDIDATE_NAME]  coatings  with  distinct 
+innate 
+angiogenesis,  osteogenesis  and  chondrogenesis  in  poly-caprolactone  scaffolds  with  controlled 
+interconnecting pore size. Bioactive Materials. 
+
+•  Almawi, A. W., [CANDIDATE_NAME], L., Boulton, S., [CANDIDATE_NAME], J., Melacini, G., D’Amours, D., 
+&  Guarné,  A.  (2020).  Distinct  surfaces  on  Cdc5/PLK  Polo-box  domain  orchestrate  combinatorial 
+substrate recognition during cell division. Scientific Reports, 10(1), 1-13. 
+
+•  Liu,  [CANDIDATE_NAME],  [CANDIDATE_NAME],  M.C.O.,  Rodríguez  González,  J.,  Pillon,  [CANDIDATE_NAME]  and  [CANDIDATE_NAME],  A.  (2019).  The 
+endonuclease domain of Bacillus subtilis MutL is functionally asymmetric. DNA repair, 73, pp.1-6. 
+
+SELECTED CONFERENCE PRESENTATIONS 
+•  J. Rodríguez González, [CANDIDATE_NAME]. “The cryo-EM structure of Rad1-Rad10-Saw1 sheds light on its 
+recruitment and activation mechanism in single-strand annealing”. The Protein Society 38th Annual 
+Symposium. Vancouver, Canada (Poster, 2024). 
+
+•  J. Rodríguez González, [CANDIDATE_NAME]. “Rad1-Rad10 uses different interfaces to interact with pathway-
+specific DNA repair factors”. 6th DNA Repair/Replication Structures and Cancer Conference, 
+[CANDIDATE_NAME], Mexico (Poster, 2024). 
+
+•  J. Rodríguez González & A. Guarné. “Rad1-Rad10 uses different interfaces to interact with 
+
+pathway-specific DNA repair factors”. 27th Annual Buffalo DNA Replication & Repair Symposium 
+Buffalo, University at Buffalo, NY, USA (Talk & poster, October 2023). 
+
+•  J. Rodríguez González & A. Guarné. “Recruitment and activation of Rad1-Rad10 during single-
+
+strand annealing”. 6th Annual CRBS Symposium, Montreal, QC, Canada. (Best poster 
+presentation award, 2024). 
+
+	
+ 
+ 
+ 
+ 
+ 
+

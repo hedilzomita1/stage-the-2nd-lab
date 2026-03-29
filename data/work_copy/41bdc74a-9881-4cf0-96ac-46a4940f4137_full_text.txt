@@ -1,0 +1,266 @@
+Document 1: Assignment 1 (Clarify) 
+
+Question #1: My Ikigai 
+
+My Ikigai is translating advanced material science into restorative patient solutions. 
+
+The central theme of my career is "Integration." My research—improving how synthetic implants 
+(like PEEK) integrate with living bone—reflects my broader professional desire: to bridge the 
+gap between academic discovery and clinical application. My talent lies in understanding the 
+complex interface where biology meets engineering (surface chemistry, cell adhesion), a niche 
+that the medical device industry (Medtronic, J&J) needs to master to create the next generation 
+of implants. 
+
+I can create a lasting impact by ensuring that medical devices are not just "biocompatible" (safe) 
+but "bioactive" (healing). To align my career with this, I am ready to transition from the "publish 
+or perish" mindset of academia to the "patient-first" and "regulatory-compliant" mindset of 
+industry. I am willing to trade the freedom of blue-sky research for the rigor of developing 
+marketable, FDA-approved products. 
+
+Question #2: My Ideal Day 
+
+My ideal day balances scientific rigor with strategic application. 
+
+It begins with reviewing technical data—perhaps analyzing surface characterization results 
+(XPS or SEM) for a new implant coating. I enjoy being the "expert in the room" whom engineers 
+consult when they encounter a biological failure. 
+
+By mid-day, I shift to a cross-functional role. I am in a meeting with the Regulatory Affairs team, 
+explaining why a specific chemical modification is safe and effective, helping them draft the 
+submission for a new device. I enjoy translating complex science into clear, defensible 
+arguments for stakeholders. The day ends with a sense of progress—knowing that the science I 
+worked on today isn't just for a paper, but for a product that will eventually go into a patient. 
+
+Question #3: Job Titles 
+
+1.  R&D Engineer / Scientist (Biomaterials): My top preference. It allows me to directly 
+apply my PhD research (surface modification, tissue engineering) to develop new 
+product lines for companies like Medtronic. 
+
+2.  Market Analyst (Medical Tech): I enjoy analyzing the landscape of medical devices. I 
+can use my deep technical understanding to predict which emerging technologies (like 
+3D bioprinting) are actually viable versus just hype. 
+
+3.  Regulatory & Medical Affairs Specialist: Since I already navigate complex biological 
+
+safety data (ISO 10993), this role appeals to my organized, detail-oriented nature. It’s 
+the "gatekeeper" role that ensures safe innovation. 
+
+4.  Scientific Consultant: This allows me to leverage my specific expertise in regenerative 
+
+medicine to help multiple clients or venture capital firms validate scientific claims. 
+
+Question #4: S.M.A.R.T Goals 
+
+●  Goal 1 (Career Transition): Secure an R&D or Medical Affairs position at a top-tier 
+
+medical device company (Medtronic, J&J, or similar) by September 2026. 
+
+○  Measurable: Submit 3 high-quality applications per week; secure 2 informational 
+
+interviews with industry scientists per month. 
+
+○  Attainable: Leveraging my permanent residency status and current network. 
+
+●  Goal 2 (Academic Closure): Successfully defend my PhD thesis and submit one final 
+
+first-author paper on surface modification of PEEK implants by May 2026. 
+
+○  Measurable: Thesis submitted to committee; manuscript submitted to 
+
+Biomaterials journal. 
+
+○  Realistic: Data collection is complete; currently in the writing phase. 
+
+●  Goal 3 (Skill Acquisition): Complete a certificate or short course in "Regulatory Affairs 
+
+for Medical Devices" (focus on FDA/Health Canada pathways) by July 2026. 
+
+○  Measurable: Certificate earned. 
+○  Time-bound: 6 months. This bridges my technical gap for my 3rd preferred job 
+
+choice. 
+
+ 
+
+Selected Job Offer Position: R&D Scientist, Structural Heart & Aortic (Medtronic - 
+Hypothetical) Key Requirements: 
+
+●  PhD in Materials Science, Biomedical Engineering, or related. 
+●  Experience with polymer characterization and surface modification. 
+●  Knowledge of tissue-material interactions and biocompatibility. 
+
+The Elevator Pitch 
+
+"Hi, I’m Ahmed. I am a PhD candidate specializing in the one thing that determines if an implant 
+succeeds or fails: The Interface. 
+
+In my research, I focused on modifying the surface of PEEK implants to make them actively 
+bond with bone tissue, rather than just sitting there. I’ve spent years mastering the exact skills 
+listed in your job description: surface chemistry, cell culture, and characterizing how new 
+materials interact with the human body. 
+
+I see that Medtronic is pushing the boundaries of what structural heart devices can do. You 
+need materials that last longer and integrate better. Because I have a deep background in both 
+the chemistry of the materials and the biology of the host response, I can help your R&D team 
+solve biocompatibility issues before they become expensive failures in clinical trials. 
+
+I’m looking to move from academic discovery to industrial application, and I’d love to bring my 
+expertise in bioactive surfaces to your team." 
+
+○ 
+
+ 
+ 
+
+[CANDIDATE_NAME] 
+
+Montreal, Canada 
+
+[EMAIL]  
+
+PhD Candidate in Materials Engineering with expertise in nanomaterials, diagnostics, biomaterials, 
+
+surface modifications, and advanced material characterization. Experienced in interdisciplinary 
+
+collaboration and eager to drive innovation in medical devices and diagnostics.  
+
+EDUCATION  
+PhD Materials Engineering, McGill University — Montreal, QC 2021 – April 2026 (expected)  
+
+•  Cumulative GPA: 3.7 / 4.00  
+• 
+
+I am working under supervision of Prof. [CANDIDATE_NAME] on surface modification of polymeric 
+
+materials for biomedical applications.  
+
+MSc. Materials Engineering, McGill University — Montreal, QC 2018 - 2020  
+
+•  Cumulative GPA: 3.8 / 4.00  
+• 
+
+I worked on implant surface modifications for tissue attachment.  
+
+Bachelor of Nanoscience, Zewail City of Science and Technology — Cairo, Egypt 2014 - 2018  
+
+•  Cumulative GPA: 3.9 / 4.00, graduated with honors [CANDIDATE_NAME] 
+•  Significant knowledge of nanomaterials and polymers. 
+
+PROFESSIONAL EXPERIENCE  
+Material scientist, [CANDIDATE_NAME] — Montreal, QC Jan 2025 - May 2025  
+
+• 
+
+I developed chemo-resistive sensors using printable composite nanomaterials for the 
+detection of Volatile Organic Compounds in breath.  
+
+Trainee, Lab2Market Validate — Montreal, QC Jan 2024 - May 2024  
+
+• 
+
+• 
+
+I Completed an intensive program on market research, customer discovery, and business 
+model validation to test the commercial potential of implant surface engineering 
+technologies. 
+I Conducted over 50 customer interviews and industry consultations to validate product-
+market fit for research-based innovations. 
+
+Teaching assistant and grading, McGill University — Montreal, QC 2022 - 2024  
+
+• 
+
+I worked as a teaching assistant and a grader of multiple courses in Materials Engineering. 
+
+Research Intern, Nabta Health — UAE June 2019 - Sep 2019  
+
+• 
+
+I worked under the CSO to develop a Point-Of-Care medical device. 
+
+SKILLS 
+Technical:  
+
+•  Testing standards (ASTM, ISO 13485) 
+•  Polymer synthesis and surface modifications 
+•  Nanomaterial fabrication and characterization  
+•  Advanced characterization techniques  
+
+ 
+ Scanning electron microscopy (SEM) 
+
+o  UV–Vis spectroscopy  
+o  Optical microscopy 
+o 
+o  Atomic force microscopy (AFM) 
+o  X-ray photoelectron spectroscopy (XPS) 
+o 
+
+ FTIR spectroscopy 
+•  Experience with Python and MATLAB 
+•  Experience with SolidWorks and ImageJ 
+
+Soft skills:  
+
+•  Communication and Organizational Skills  
+•  Detail-Oriented and Precision with Instruments 
+•  Safety Protocol Adherence 
+•  Team Collaboration 
+
+SELECTED PUBLICATIONS  
+
+•  [CANDIDATE_NAME] A, [CANDIDATE_NAME], Tran SD, Tamimi F, Aparicio C, [CANDIDATE_NAME] "Controlling collagen I orientation 
+on polyetheretherketone implants to improve epithelial sealing." ACS Biomaterials Science & 
+Engineering. (2025). 
+
+•  [CANDIDATE_NAME], [CANDIDATE_NAME], [CANDIDATE_NAME], A., et al. "Diazonium chemistry for bonding between PEEK and resin cement." 
+
+The Journal of Prosthetic Dentistry (2025). 
+
+•  [CANDIDATE_NAME], A., et al. "Biomimetic Strategy to Enhance Epithelial Cell Viability and Spreading on 
+
+PEEK Implants." ACS Biomaterials Science & Engineering (2022). 
+
+•  [CANDIDATE_NAME], A., and Cerruti, M. "Diazonium Salts and Related Compounds for Biomedical 
+
+Applications." Aryl Diazonium Salts and Related Compounds. Springer, Cham, 2022. 
+
+•  [CANDIDATE_NAME], [CANDIDATE_NAME], [CANDIDATE_NAME], A., et al. “High toughness resorbable brushite-gypsum fiber-reinforced 
+
+cements.” Materials Science and Engineering: C, (2021). 
+
+CONFERENCE PARTICIPATION 
+
+•  Canadian Biomaterial Society Conference (2025) – Poster 
+•  Canadian Biomaterial Society Conference (2023) – Talk 
+•  McGill Regenerative Medicine Symposium (2023) – Poster 
+•  Canadian Biomaterial Society Conference (2022) – Poster 
+•  Quebec Centre for Advanced Materials Symposium (2019) – Poster  
+
+AWARDS 
+
+•  Mitacs Globallink Research Award | 2024 
+•  Mitacs Business Strategy Internship Program | 2024 
+•  Fonds de recherche du Québec (FRQNT) Doctoral Scholarship | 2023 - 2025 
+•  McGill Engineering Graduate Award | 2021 - 2024 
+•  Graduate Excellence Fellowship Award, McGill University | 2018 - 2024 
+
+VOLUNTEERING AND OUTREACH 
+
+•  Canadian Biomaterials Society (CBS) student board representative | 2023-2024 
+•  Mentoring in Summer Undergraduate Research in Engineering (SURE) at McGill University 
+
+|2021-2023 
+
+•  McGill Institute for Advanced Materials (MIAM) trainee committee member |2021-2023 
+
+Languages 
+
+•  English: Proficient 
+•  French: Intermediate 
+
+ 
+ 
+ 
+

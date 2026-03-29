@@ -1,0 +1,250 @@
+PARIA	ALIPOUR	
+
+[PHONE]																				
+
+	[EMAIL]																
+
+	linkedin.com/in/pariaalipour																														
+
+	GitHub:	Paria06	
+
+PROFESSIONAL	SUMMARY	
+
+Bioinformatics	Scientist	 with	 a	 PhD	 in	 Human	 Genetics	 and	 extensive	 experience	 in	 genomic	 data	 analysis,	 high-
+performance	 computing,	 and	 pipeline	 development.	 Skilled	 in	 analyzing	 single-cell	 and	 bulk	 RNA-seq,	 WGS,	 and	
+proteomics	 data	 for	 translational	 and	 clinical	 research.	 Adept	 at	 interdisciplinary	 collaboration,	 scientific	
+communication,	and	implementing	innovative	solutions	that	enhance	diagnostic	and	research	capacities.	
+
+RESEARCH	EXPERIENCE	
+
+Postdoctoral	Researcher					
+[CANDIDATE_NAME]	University,	Montreal,	QC		
+
+																																																January–	May	2025	
+•  Quantified	 STMN2	 splicing	 variants	 in	 single-cell	 RNA-seq	 data	 from	 Amyotrophic	 Lateral	 Sclerosis	 (ALS)	
+which	 highlighted	 significant	 TDP-43	 [CANDIDATE_NAME]	 in	 ALS	 spinal	 cord	 conducted	 in	 a	 high-performance	
+computing	(HPC)	environment.	
+
+•  Estimated	ALS	risk	in	individuals	with	autoimmune	conditions	by	computing	Polygenic	Risk	Scores	(PRS)	and	
+
+applying	unsupervised	machine	learning	approaches.	
+
+•  Analyzed	whole	genome	sequencing	(WGS)	data	of	Chernobyl-exposed	individuals	revealing	that	de	novo	
+
+mutations	are	not	significantly	correlated	with	radiation	exposure.	
+
+Bioinformatic	Scientist	Intern	
+35Pharma,	Montreal,	QC				
+
+																																					October–	December	2024		
+
+•  Performed	comprehensive	analysis	of	RNA-seq	datasets	across	preclinical	and	clinical	phases.	
+•  Expanded	 analytical	 approaches	 to	 detect	 subtle	 changes	 in	 SomaScan	 proteomics	 data	 that	 cannot	 be	
+
+detected	using	DEG	analysis,	enhancing	the	study	of	drug	effects.	
+
+•  Evaluated	 the	 potentials	 to	 develop	 an	 in-house	 single-cell	 RNA-seq	 approach	 to	 enhance	 research	
+
+capabilities.	
+
+•  Established	 a	 database	 of	 biomarkers	 for	 complex	 conditions	 including	 heart	 failure,	 obesity,	 etc.,	 in	
+
+collaboration	with	a	team	of	translational	scientists.	
+
+[CANDIDATE_NAME]	 	
+[CANDIDATE_NAME]	University,	Montreal,	QC									
+
+																																			September	2018	–	November	2024	
+•  Conducted	analysis	of	large-scale	single-cell	RNA-seq	across	brain	and	spinal	cord	of	human	post-mortem	
+
+tissues.	
+
+•  Advanced	understanding	of	differential	vulnerability	in	ALS	by	Identifying	pathways	that	enhance	immune	
+
+cell	survival	in	the	oculomotor	nucleus	compared	to	the	spinal	cord.	
+
+•  Applied	mendelian	randomization	(MR)	to	refine	the	long-standing	hypothesis	of	a	relationship	between	ALS	
+
+and	autoimmune	disorders.	
+
+•  Mentored	two	graduate	students,	guiding	them	through	research	design,	data	analysis,	and	interpretation,	
+
+fostering	their	academic	development.	
+
+•  Collaborated	on	four	interdisciplinary	research	projects,	resulting	in	three	peer-reviewed	publications,	with	
+
+one	manuscript	currently	in	preparation.	
+
+•  	
+
+Master	Level	Researcher		
+Shahrekord	University,	Shahrekord,	Iran																	
+
+		September	2012	–	August	2015																			
+
+•  Conducted	annotation	of	Next-Generation	Sequencing	(NGS)	panel	data	for	Hearing	Loss	(HL)	samples.	
+•  Identified	and	reported	two	novel	pathogenic	variants	in	HL	and	Ataxia–telangiectasia	disorders.	
+
+	
+	
+	
+	
+	
+	
+	
+				
+												 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+									
+	
+	
+	
+	
+	
+	
+	
+	
+											
+	
+	
+	
+	
+									
+	
+	
+	
+	
+	
+	
+		
+•  Performed	 classification	 of	 pathogenic	 variants	 of	 HL	 NGS	 data	 based	 on	 American	 College	 of	 Medical	
+
+Genetics	(ACMG)	guidelines.	
+
+EDUCATION	
+
+PhD	in	Human	Genetics	|	McGill	University		
+Faculty	of	Medicine,	Department	of	Human	Genetics								
+
+	Montreal,	QC	
+September	2018	–	November	2024	
+
+M.Sc.	in	Human	Genetics	|	Shahrekord	University	of	Medical	Science		
+Faculty	of	Medicine,	Department	of	Human	Genetics								
+
+							Shahrekord,	Iran																																			
+
+September	2012	–	August	2015	
+
+B.Sc.	in	Genetics	|	Shahrekord	University		
+Faculty	of	Sciences	
+
+ADDITIONAL	TRAINING	
+
+Shahrekord,	Iran	
+September	2008	–	July	2012	
+
+Advanced	Machine	Learning	|	NexaLand																																																																																														September	2025	–	present	
+
+Basic	Machine	Learning	|	NexaLand																																																																																										September	2023	–	January	2024	
+
+TECHNICAL	SKILLS	
+
+Data	Visualization	
+Genomics	Analysis	
+
+R	(ggplot2),	python	(matplotlib.pyplot),	Excel,	Tableau	
+
+-Mendelian	Randomization	
+
+R	(TwoSampleMR,	MRPRESSO)	
+
+-Whole	Genome	Sequencing,	
+		Whole	Exome	Sequencing	
+
+-Polygenic	Risk	Score		
+Transcriptomics	Analysis	and	Bioinformatic		
+
+-Single-nucleus	RNA-Seq	
+
+GATK,	Bcftools,	regtools,	STAR,	Picard,	Bioconductor	
+
+Plink2,	R	(SNPRelate,	BiocManager,	BiocManager),	
+Python	(scikit-learn)	
+
+(Seurat,	
+
+harmony,	
+
+SeuratWrappers,	
+
+Presto,	
+R	
+SingleCellExperiment,	
+biomaRt,	
+clusterProNiler,	enrichplot,	Scclusteval,	SingleR,	Slingshot,	
+monocle,	 Cellchat,	 [CANDIDATE_NAME],	 hdWGCNA,	 fgsea,	 speckle,	
+RRHO,	DESeq2,	muscat),	Cellranger,	regtools	
+
+scDblFinder,	
+
+-Splicing	variant	identiNication	
+
+STAR,	regtools	
+
+-Bulk	RNA-seq	
+
+Programming	&	Computational	environment	
+Software	and	Tools		
+Statistical	Modeling		
+
+FastQC,	Trimmomatic,	R	(biomaRt,	clusterProfiler,	
+enrichplot,	WGCNA,	fgsea,	DESeq2),	STAR	
+Python,	Bash	scripting,	[CANDIDATE_NAME],	Google	Colab	
+MS	Office,	IGV		
+Python,	R,	and	Radiant	
+
+LANGUAGE	SKILLS	
+
+English	(Advanced	Proficiency)	
+
+French	(Intermediate	Proficiency)	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

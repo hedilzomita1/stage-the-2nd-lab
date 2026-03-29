@@ -1,0 +1,38 @@
+{
+    "job_id": "R102122",
+    "meta_domain": "General",
+    "hard_skills_bucket": [
+        "Diplôme universitaire en chimie, biochimie ou immunologie",
+        "Expérience dans les domaines médical et/ou pharmaceutique et/ou de la cytométrie en flux",
+        "Connaissance des procédures opérationnelles standard (SOP) générales",
+        "Connaissance des réglementations GLP",
+        "MS-Office, Outlook",
+        "Anglais et français (niveau C1)"
+    ],
+    "soft_skills_bucket": [
+        "Excellentes compétences en communication",
+        "Bon sens de l'organisation",
+        "Souci du détail",
+        "Capacité à travailler avec différentes équipes",
+        "Bon leadership",
+        "Résilience",
+        "Esprit d'équipe"
+    ],
+    "culture_dna": [
+        "Innovation rapide",
+        "Bienveillance",
+        "Compétition",
+        "Excellence opérationnelle",
+        "Développement du personnel",
+        "Orientation client",
+        "Qualité",
+        "Respect",
+        "Intégrité"
+    ],
+    "logistics_constraints": {
+        "location": "Laval, Québec",
+        "type_de_travail": "Temps plein",
+        "remote": "Non",
+        "visa": "Non requis"
+    }
+}

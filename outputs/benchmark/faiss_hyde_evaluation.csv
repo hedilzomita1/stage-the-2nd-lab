@@ -1,0 +1,11 @@
+Job_ID,Method,MRR@3,NDCG@3,Precision@3,Recall@3
+job_1_direct_match,Baseline,0.5,0.521,0.333,0.5
+job_1_direct_match,HyDE,1.0,0.826,0.333,0.5
+job_2_semantic_hyde,Baseline,0.5,0.587,0.667,1.0
+job_2_semantic_hyde,HyDE,0.5,0.521,0.333,0.5
+job_3_noisy_corporate,Baseline,0.0,0.0,0.0,0.0
+job_3_noisy_corporate,HyDE,1.0,0.964,0.667,1.0
+job_4_garbage,Baseline,0.0,0.0,0.0,1.0
+job_4_garbage,HyDE,0.0,0.0,0.0,1.0
+job_5_needle_haystack,Baseline,1.0,0.847,0.667,0.667
+job_5_needle_haystack,HyDE,1.0,0.363,0.667,0.667

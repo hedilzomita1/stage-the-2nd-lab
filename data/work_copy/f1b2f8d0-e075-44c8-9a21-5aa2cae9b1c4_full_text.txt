@@ -1,0 +1,312 @@
+Question #1: My Ikigai 
+
+My Ikigai is engineering living solutions for complex medical challenges. 
+
+The central theme of my career is "Structure and Function." Whether it was formulating 
+nanoparticles for cardiac stents or designing 3D-bioprinted osteochondral tissues, I am 
+passionate about creating materials that mimic biology. My talent lies in the 
+intersection of material science (formulation, rheology) and advanced manufacturing 
+(3D bioprinting). The world needs scalable, effective tissue substitutes to treat aging 
+populations and injuries, a need I am uniquely positioned to meet. 
+
++2 
+
+I can create a lasting impact by developing bio-manufacturable products that move from 
+the lab to the clinic, reducing the gap between "promising research" and "actual patient 
+cure." To align my career with this, I am targeting roles in Process Development and 
+R&D where I can apply my bioprinting expertise to industrial-scale problems. I am ready 
+to transition from the exploratory nature of academia to the rigorous, timeline-driven 
+environment of biotech product development. 
+
+Question #2: My Ideal Day 
+
+My ideal day is a dynamic mix of hands-on innovation and collaborative 
+problem-solving. 
+
+It starts in the lab, overseeing a critical run on a 3D bioprinter. I am optimizing the print 
+parameters for a new hydrogel formulation, checking the rheology data to ensure 
+printability. 
+
+By mid-day, I transition to a team meeting with Quality Assurance and Manufacturing 
+engineers. We are discussing how to scale up my bench-top process to a sterile, 
+GMP-compliant workflow. I enjoy translating my technical findings into actionable 
+process improvements. The afternoon involves analyzing cell viability data from 
+yesterday's print using ImageJ, ensuring the cells survived the manufacturing process. 
+The day ends with a sense of tangible progress—a physical prototype that works better 
+than the one from yesterday. 
+
+Question #3: Job Titles 
+
+1.  Process Development Scientist: This aligns perfectly with my desire to bridge 
+
+R&D and manufacturing. My experience optimizing hydrogels and 
+troubleshooting bioreactors makes me a strong fit for scaling up cell therapies. 
+
+2.  R&D Engineer (Biomaterials/Tissue Engineering): This leverages my PhD 
+expertise in developing novel tissue substitutes and characterizing materials 
+(NMR, AFM). 
+
+3.  Medical Science Liaison (MSL): With my strong communication skills (best 
+
+presentation awards) and deep technical knowledge, I can effectively bridge the 
+gap between a company's scientific data and healthcare professionals. 
+
+4.  Application Scientist (Biotech): Drawing on my past experience with dental 
+
+implants and customer training, I enjoy demonstrating how complex technologies 
+(like bioprinters) solve specific user problems. 
+
+Question #4: S.M.A.R.T Goals 
+
+●  Goal 1 (Career Placement): Secure a full-time position as a Process 
+
+Development Scientist or R&D Engineer in a Canadian biotech company (e.g., 
+Ripple Therapeutics, Morphocell) by June 2025. 
+
+○  Measurable: Submit 5 tailored applications weekly; follow up on my recent 
+
+successful interview with the Process Development team. 
+
+○  Attainable: Recent positive feedback confirms my profile is competitive. 
+
+●  Goal 2 (Scientific Dissemination): Publish my two papers currently under 
+
+review regarding "Gradient Multilayered Osteochondral Tissue Constructs" by 
+December 2025. 
+
+○  Measurable: Manuscripts accepted and published in peer-reviewed 
+
+journals. 
+
+○  Realistic: Papers are already written and under review; goal focuses on 
+
+addressing reviewer comments. 
+
+●  Goal 3 (Professional Networking): Expand my network in the "Cell & Gene 
+
+Therapy" manufacturing space by connecting with 20 industry professionals on 
+LinkedIn by May 2025. 
+
+○  Measurable: Send 5 personalized invites per week; schedule 2 
+
+informational interviews. 
+○  Time-bound: 3 months. 
+
+ 
+ 
+
+[CANDIDATE_NAME] 
+
+  [EMAIL] | 
+
+  [PHONE] | 
+
+  Ottawa, Canada 
+
+ Professional Summary 
+
+Multidisciplinary Biomedical Engineer with a solid background in biomaterials processing, specialized in designing and 
+manufacturing hydrogel-based systems for cell and drug delivery. Experience in medical devices manufacturing including 
+product design and quality assurance to ensure compliance and performance. Keen on identifying and analyzing challenges 
+and collaborating with cross-functional teams to support material processing and advance innovative drug delivery systems 
+from concept to clinical application.  
+
+Core Expertise 
+
+•  Skilled in biomaterials characterization techniques including 1H-NMR, AFM, DLS, GPC, rheology, and 
+
+unconfined compression testing 
+
+•  Over 6 years of experience in mammalian cell culture using 2D and 3D systems (stem and primary cells) 
+•  Experience with cell and tissue characterization techniques such as cell viability/proliferation assays, ELISA, 
+
+flow cytometry, and IHC 
+
+•  Deep knowledge of working with advanced manufacturing tools such as 3D bioprinting technology  
+•  Proficient in software tools including AutoCAD, [CANDIDATE_NAME] (G-coding for 3D models), Imaris, ImageJ, GraphPad 
+
+Prism for data analysis and modeling 
+
+Professional Experience 
+
+2020 – 2025: Researcher at University of Ottawa (Ottawa, Canada)  
+
+•  Designed and developed novel tissue substitutes using 3D bioprinting to address osteoarthritis 
+
+➢  Designed and synthesized hydrogels for the fabrication of tissue substitutes 
+➢  Conducted comprehensive physicochemical assessment of hydrogels using techniques including 1H-NMR, 
+
+rheology and mechanical testing 
+
+➢  Achieved significantly improved cell functions including viability, proliferation and differentiation 
+➢  [CANDIDATE_NAME] bioprocess challenge by integrating an effective antifungal reagent into the bioreactor system, 
+
+improving sterility and culture reliability 
+
+➢  Presented scientific results to a larger audience in national and international conferences  
+
+➢  Authored and documented peer-reviewed articles and SOP  
+
+2018–2019: Researcher at Ludwig Boltzmann Institute (LBI, Vienna, Austria)  
+
+• 
+
+Investigated the effect of TRAP-6 on vascular network formation in a cell-laden hydrogel system  
+
+➢  Designed and optimized co-culture condition of stem and primary cells  
+
+➢  Extensively assessed vascular network formation through in vitro analysis  
+
+➢  Optimized  a  methodological  approach  for  vascular  network  quantification  in  fluorescence  microscopy 
+
+images  
+
+2018:    Research trainee  at  CellChip  Group,  Vienna University  of  Technology  (4-month  internship)  (Vienna, 
+
+Austria)  
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Manufactured vascular-on-a-chip model for drug screening applications 
+
+➢  Developed a method to transfer cells with maximized post-transfer viability  
+➢  Optimized the design and manufacturing of the microfluidic device to reach a laminar flow (collaborated with 
+
+a team of engineers and biochemists) 
+
+2016–2017: Application Scientist manufacturing dental implants with Kimia Kasht (Tehran, Iran)  
+
+➢  Conducted detailed product training sessions for over 50 healthcare professionals  
+➢  Collaborated with a cross-functional team to resolve issues related to implant dimensions and enhance clinical 
+
+performance 
+
+➢  Conferred with customers (dentists) to ensure optimal requirements of implants are met 
+
+2014–2015:  Research trainee at Nanobiotechnology Group, Tarbiat Modarres University (one-year internship) 
+
+(Tehran, Iran)  
+
+•  Formulated nanoparticles designed for drug delivery with application in cardiac stents 
+
+➢  Demonstrated potential to reduce post-stent complications  
+
+➢  Achieved sustained and controlled release of anti-inflammatory drugs  
+
+Education 
+
+2020–2025:  Doctor of Philosophy in  Biomedical and Tissue  Engineering,   University of Ottawa  (Ottawa, Canada)  
+
+2017–2019: Master of Science in Biomaterials and Biomechanics, Vienna University of Technology (Vienna, Austria),  
+
+2010 – 2014: Bachelor of Science in Biomedical Engineering, specialized in Biomaterials, [CANDIDATE_NAME] (Tehran, Iran 
+
+Honors & Awards 
+
+•  Best second oral presentation award at the “Additive Manufacturing for Health (AMH) Conference, March 2024 
+•  Second place award at the “Enabling Technologies for HealthCare and Augmented Life, poster competition”, 
+
+March 2023 & 2024 
+
+•  [CANDIDATE_NAME], MD FRCSC Graduate Fellowship, Issued by University of Ottawa, April 2023 
+
+Leadership Roles 
+
+•  Student Board Representative, Canadian Biomaterials Society (CBS) | 2024 – Present 
+•  President, CBS-Ottawa Student Chapter | 2022 – 2024 
+•  Member, International Society for Biofabrication | 2023 – 2024 
+
+Communications and Selected Publications 
+
+•  M.Heydarigoojani, E.A. Lehoux, I. Catelas, “Engineering of a gradient multilayered osteochondral tissue construct 
+
+using spatially defined bioinks: Part A: Bioinks development”, under-review 
+
+•  M.Heydarigoojani, E.A. Lehoux, I. Catelas, “Engineering of a gradient multilayered osteochondral tissue construct 
+
+using spatially defined bioinks: Part B: 3D bioprinting gradient construct, under review 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  M.Heydarigoojani, [CANDIDATE_NAME], [CANDIDATE_NAME], “Bioinks for engineering gradient-based osteochondral and 
+
+meniscal tissue substitutes: a review”, [CANDIDATE_NAME], 2025 
+
+•  M.Heydarigoojani, E.A. Lehoux, I. Catelas, “Evaluation of the cytocompatibility and bioactivity of new bioinks 
+for 3D bioprinting of a multilayered osteochondral tissue substitute”. Additive Manufacturing for Health (AMH) 
+conference, March 21-22, 2024, Nantes, France 
+
+• 
+
+ M.Heydarigoojani, E.A. Lehoux, I. Catelas, “Bioink-guided spatiotemporal growth factor release for 
+osteochondral tissue engineering”. International Conference in Biofabrication, September 17-20, 2023, Saskatoon, 
+Canada 
+
+•  M.Heydarigoojani, E.A. Lehoux, I. Catelas, “Development of bioinks for 3D bioprinting of an osteochondral 
+
+tissue substitute”. Society for Biomaterials (SFB) 2023 Annual Meeting and Exposition, April 19-22, 2023, San 
+Diego, CA 
+
+References provided upon request 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Document 2: Assignment 4 (Pitch) 
+
+Selected Job Offer Position: Process Development Scientist (Target: Morphocell 
+Technologies or similar) Key Requirements: 
+
+●  PhD in Biomedical Engineering or related field. 
+●  Experience with cell culture, bioreactors, and biomaterial formulation. 
+●  Ability to troubleshoot scale-up processes. 
+●  Strong communication and presentation skills. 
+
+The Elevator Pitch 
+
+"Hi, I’m Mahdieh. I am a Biomedical Engineer who specializes in turning fragile 
+biological ideas into robust, manufacturable products. 
+
+During my PhD at the University of Ottawa, I didn't just grow cells; I engineered entire 
+3D-printed tissue environments. I formulated novel hydrogels, optimized their printing 
+parameters for structural integrity, and successfully integrated them into bioreactors to 
+grow functional osteochondral tissue. I know exactly how tricky it is to balance 
+'biological viability' with 'mechanical strength' because I’ve spent the last 5 years solving 
+that exact trade-off. 
+
+I also bring industry experience from my time as an Application Scientist, where I 
+learned that the best technology is useless if it doesn't fit the user's workflow. I recently 
+received positive feedback for my structured approach to problem-solving in a similar 
+role, and I’m eager to bring that same mix of technical rigor and manufacturing 
+mindset to your process development team to help scale your cell therapies." 
+
+ 
+ 
+

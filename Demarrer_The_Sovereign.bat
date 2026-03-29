@@ -10,47 +10,66 @@ echo     THE SOVEREIGN - DEMARRAGE AUTOMATIQUE
 echo =======================================================
 echo.
 
-set "TARGET_CONTAINER=%NEO4J_CONTAINER%"
-if not defined TARGET_CONTAINER set "TARGET_CONTAINER=neo4j-aebm"
+if not exist ".env" (
+    echo [INFO] Fichier .env absent.
+    if exist ".env.cloud.template" (
+        copy /Y ".env.cloud.template" ".env" >nul
+        echo [ACTION] Un .env template a ete cree.
+        echo          Completez les valeurs (Neo4j Cloud + Groq), enregistrez, puis relancez.
+        start "" notepad ".env"
+    ) else if exist ".env.example" (
+        copy /Y ".env.example" ".env" >nul
+        echo [ACTION] Un .env a ete cree depuis .env.example.
+        echo          Completez les valeurs, enregistrez, puis relancez.
+        start "" notepad ".env"
+    ) else (
+        echo [ERREUR] Aucun .env ni .env.example trouve.
+    )
+    goto :end
+)
+
+set "TARGET_CONTAINER=neo4j-aebm"
 set "NEO4J_USER=neo4j"
 set "NEO4J_PASSWORD="
 set "NEO4J_URI="
+set "AEBM_NEO4J_MODE="
 set "USE_CLOUD_NEO4J=0"
 
-if exist ".env" (
-    for /f "usebackq tokens=1,* delims==" %%A in (".env") do (
-        if /i "%%A"=="NEO4J_PASSWORD" set "NEO4J_PASSWORD=%%B"
-        if /i "%%A"=="NEO4J_CONTAINER" set "TARGET_CONTAINER=%%B"
-        if /i "%%A"=="NEO4J_URI" set "NEO4J_URI=%%B"
-        if /i "%%A"=="AEBM_NEO4J_MODE" if /i "%%B"=="cloud" set "USE_CLOUD_NEO4J=1"
-    )
+for /f "usebackq tokens=1,* delims==" %%A in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "$out=@(); Get-Content '.env' | ForEach-Object { if($_ -match '^\s*#' -or $_ -notmatch '='){ return }; $parts=$_.Split('=',2); $k=$parts[0].Trim(); $v=$parts[1].Trim().Trim('\"'''); switch -Regex ($k) { '^AEBM_NEO4J_MODE$' { $out += 'AEBM_NEO4J_MODE=' + $v }; '^NEO4J_URI$' { $out += 'NEO4J_URI=' + $v }; '^NEO4J_USER$' { $out += 'NEO4J_USER=' + $v }; '^NEO4J_PASSWORD$' { $out += 'NEO4J_PASSWORD=' + $v }; '^NEO4J_CONTAINER$' { $out += 'TARGET_CONTAINER=' + $v } } }; $out | ForEach-Object { Write-Output $_ }"`) do (
+    set "%%A=%%B"
 )
 
-if defined NEO4J_PASSWORD (
-    set "NEO4J_PASSWORD=%NEO4J_PASSWORD:"=%"
-)
-
-if not defined NEO4J_PASSWORD (
-    set "NEO4J_PASSWORD=ChangeMe_12345"
-    echo [WARN] NEO4J_PASSWORD non trouve dans .env.
-    echo        Mot de passe temporaire utilise. Mettez un vrai mot de passe dans .env.
-)
-
+if /I "%AEBM_NEO4J_MODE%"=="cloud" set "USE_CLOUD_NEO4J=1"
 if defined NEO4J_URI (
-    echo %NEO4J_URI% | findstr /I "neo4j+s://" >nul
+    echo %NEO4J_URI% | findstr /I /B "neo4j+s://" >nul
     if not errorlevel 1 set "USE_CLOUD_NEO4J=1"
 )
 
 if "%USE_CLOUD_NEO4J%"=="1" (
+    if not defined NEO4J_PASSWORD (
+        echo [ERREUR] Mode cloud detecte mais NEO4J_PASSWORD est vide dans .env.
+        echo          Ouvrez .env, completez les cles, puis relancez.
+        start "" notepad ".env"
+        goto :end
+    )
+    if not defined GROQ_API_KEY (
+        rem GROQ_API_KEY is checked by preflight, keep flow.
+    )
     echo [1/5] Mode Neo4j Cloud detecte.
     echo [OK] Docker non requis sur cette machine.
     echo.
 ) else (
+    if not defined NEO4J_PASSWORD (
+        set "NEO4J_PASSWORD=ChangeMe_12345"
+        echo [WARN] NEO4J_PASSWORD non trouve dans .env.
+        echo        Mot de passe temporaire utilise pour mode local Docker.
+    )
+
     echo [1/5] Verification Docker Desktop...
     where docker >nul 2>nul
     if errorlevel 1 (
         echo [ERREUR] Docker n'est pas detecte.
-        echo          Installez Docker Desktop puis relancez.
+        echo          Installez Docker Desktop ou passez en mode cloud dans .env.
         goto :end
     )
 
@@ -108,8 +127,8 @@ if "%USE_CLOUD_NEO4J%"=="1" (
         echo [OK] Conteneur "%TARGET_CONTAINER%" demarre.
         timeout /t 5 /nobreak >nul
     )
+    echo.
 )
-echo.
 
 echo [3/5] Verification environnement Python...
 if not exist ".\.venv\Scripts\activate.bat" (
@@ -137,7 +156,7 @@ if errorlevel 1 (
 
 python scripts\preflight.py --quick
 if errorlevel 1 (
-    echo [ERREUR] Preflight KO. Verifiez .env, Docker et dependances.
+    echo [ERREUR] Preflight KO. Verifiez .env, cles, et dependances.
     goto :end
 )
 echo [OK] Preflight valide.

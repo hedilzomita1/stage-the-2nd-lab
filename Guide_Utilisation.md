@@ -15,6 +15,11 @@ Objectif: lancer l'application, faire un audit, et mettre a jour la base candida
 - `GROQ_API_KEY`
 - `NEO4J_PASSWORD`
 
+Option non-technique (recommandee superviseurs):
+- Utiliser `.env.cloud.template` en le renommant en `.env`
+- Renseigner `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `GROQ_API_KEY`
+- Laisser `AEBM_NEO4J_MODE=cloud` (Docker non requis)
+
 Exemple:
 ```env
 GROQ_API_KEY=your_groq_key_here

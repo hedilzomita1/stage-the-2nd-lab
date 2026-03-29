@@ -1,74 +1,145 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal EnableExtensions
 cd /d "%~dp0"
 
 title The Sovereign - Demarrage
 color 0B
 
 echo =======================================================
-echo     INITIALISATION 
+echo     THE SOVEREIGN - DEMARRAGE AUTOMATIQUE
 echo =======================================================
 echo.
 
-echo [1/3] Demarrage du Cerveau Graphe (Neo4j)...
-where docker >nul 2>nul
-if errorlevel 1 (
-    echo [WARN] Docker n'est pas detecte dans le PATH.
-    echo        Assurez-vous que Docker Desktop est lance.
-) else (
-    set "TARGET_CONTAINER=%NEO4J_CONTAINER%"
-    if not defined TARGET_CONTAINER set "TARGET_CONTAINER=neo4j-aebm"
+set "TARGET_CONTAINER=%NEO4J_CONTAINER%"
+if not defined TARGET_CONTAINER set "TARGET_CONTAINER=neo4j-aebm"
+set "NEO4J_USER=neo4j"
+set "NEO4J_PASSWORD="
 
-    docker start "%TARGET_CONTAINER%" >nul 2>nul
-    if errorlevel 1 (
-        docker start "neo4j" >nul 2>nul
-        if errorlevel 1 (
-            echo [WARN] Impossible de demarrer Neo4j automatiquement.
-            echo        Verifiez Docker Desktop et le nom du conteneur.
-            echo        Nom attendu par defaut: neo4j-aebm ou neo4j.
-        ) else (
-            set "TARGET_CONTAINER=neo4j"
-            echo [OK] Conteneur Neo4j "%TARGET_CONTAINER%" demarre ou deja actif.
-            timeout /t 5 /nobreak >nul
-        )
-    ) else (
-        echo [OK] Conteneur Neo4j "%TARGET_CONTAINER%" demarre ou deja actif.
-        timeout /t 5 /nobreak >nul
+if exist ".env" (
+    for /f "usebackq tokens=1,* delims==" %%A in (".env") do (
+        if /i "%%A"=="NEO4J_PASSWORD" set "NEO4J_PASSWORD=%%B"
+        if /i "%%A"=="NEO4J_CONTAINER" set "TARGET_CONTAINER=%%B"
     )
 )
-echo.
 
-echo [2/3] Activation de l'environnement Python...
-if not exist ".\.venv\Scripts\activate.bat" (
-    echo [ERREUR] Environnement virtuel introuvable: .\.venv\Scripts\activate.bat
-    echo          Creez le venv une fois, puis relancez ce script.
+if defined NEO4J_PASSWORD (
+    set "NEO4J_PASSWORD=%NEO4J_PASSWORD:"=%"
+)
+
+if not defined NEO4J_PASSWORD (
+    set "NEO4J_PASSWORD=ChangeMe_12345"
+    echo [WARN] NEO4J_PASSWORD non trouve dans .env.
+    echo        Mot de passe temporaire utilise. Mettez un vrai mot de passe dans .env.
+)
+
+echo [1/5] Verification Docker Desktop...
+where docker >nul 2>nul
+if errorlevel 1 (
+    echo [ERREUR] Docker n'est pas detecte.
+    echo          Installez Docker Desktop puis relancez.
     goto :end
 )
+
+docker info >nul 2>nul
+if errorlevel 1 (
+    echo [ERREUR] Docker Desktop est installe mais non demarre.
+    echo          Ouvrez Docker Desktop, attendez "Engine running", puis relancez.
+    goto :end
+)
+echo [OK] Docker actif.
+echo.
+
+echo [2/5] Verification/creation Neo4j...
+docker inspect "%TARGET_CONTAINER%" >nul 2>nul
+if errorlevel 1 (
+    docker inspect "neo4j" >nul 2>nul
+    if errorlevel 1 (
+        echo [INFO] Conteneur Neo4j absent. Creation automatique...
+
+        docker image inspect neo4j:5 >nul 2>nul
+        if errorlevel 1 (
+            echo [INFO] Telechargement image neo4j:5...
+            docker pull neo4j:5
+            if errorlevel 1 (
+                echo [ERREUR] Echec du telechargement neo4j:5.
+                goto :end
+            )
+        )
+
+        docker run -d --name "%TARGET_CONTAINER%" -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=%NEO4J_USER%/%NEO4J_PASSWORD% neo4j:5 >nul 2>nul
+        if errorlevel 1 (
+            echo [ERREUR] Echec creation du conteneur "%TARGET_CONTAINER%".
+            echo          Verifiez si les ports 7474/7687 sont deja utilises.
+            goto :end
+        )
+
+        echo [OK] Conteneur "%TARGET_CONTAINER%" cree et demarre.
+        timeout /t 7 /nobreak >nul
+    ) else (
+        set "TARGET_CONTAINER=neo4j"
+        docker start "%TARGET_CONTAINER%" >nul 2>nul
+        if errorlevel 1 (
+            echo [ERREUR] Impossible de demarrer le conteneur "%TARGET_CONTAINER%".
+            goto :end
+        )
+        echo [OK] Conteneur "%TARGET_CONTAINER%" demarre.
+        timeout /t 5 /nobreak >nul
+    )
+) else (
+    docker start "%TARGET_CONTAINER%" >nul 2>nul
+    if errorlevel 1 (
+        echo [ERREUR] Impossible de demarrer le conteneur "%TARGET_CONTAINER%".
+        goto :end
+    )
+    echo [OK] Conteneur "%TARGET_CONTAINER%" demarre.
+    timeout /t 5 /nobreak >nul
+)
+echo.
+
+echo [3/5] Verification environnement Python...
+if not exist ".\.venv\Scripts\activate.bat" (
+    echo [INFO] .venv absent. Installation automatique...
+    if exist ".\scripts\install_env.bat" (
+        call ".\scripts\install_env.bat"
+        if errorlevel 1 (
+            echo [ERREUR] Echec installation environnement Python.
+            goto :end
+        )
+    ) else (
+        echo [ERREUR] Script introuvable: scripts\install_env.bat
+        goto :end
+    )
+)
+echo [OK] Environnement Python pret.
+echo.
+
+echo [4/5] Activation venv + preflight...
 call ".\.venv\Scripts\activate.bat"
 if errorlevel 1 (
-    echo [ERREUR] Echec activation du venv.
+    echo [ERREUR] Echec activation venv.
     goto :end
 )
-echo [OK] venv active.
-echo.
 
-echo [3/4] Verification preflight...
 python scripts\preflight.py --quick
 if errorlevel 1 (
-    echo [ERREUR] Preflight KO. Corrigez les erreurs puis relancez.
+    echo [ERREUR] Preflight KO. Verifiez .env, Docker et dependances.
     goto :end
 )
 echo [OK] Preflight valide.
 echo.
 
-echo [4/4] Ouverture de l'interface web...
+echo [5/5] Lancement interface Streamlit...
 python -m streamlit --version >nul 2>nul
 if errorlevel 1 (
-    echo [ERREUR] Streamlit n'est pas installe dans le venv.
-    echo          Lancez une fois: scripts\install_env.bat
+    echo [ERREUR] Streamlit indisponible dans .venv.
+    echo          Relancez scripts\install_env.bat
     goto :end
 )
-echo Ne fermez pas cette fenetre noire pendant l'utilisation.
+
+echo.
+echo [OK] Interface en cours de demarrage...
+echo     URL locale: http://localhost:8501
+echo     Ne fermez pas cette fenetre pendant l'utilisation.
 echo.
 python -m streamlit run app.py
 
